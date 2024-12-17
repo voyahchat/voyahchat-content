@@ -1,5 +1,5 @@
 ---
-title: 'Заряд / разряд'
+title: 'Заряд/разряд'
 published: true
 ---
 
