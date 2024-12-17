@@ -1,5 +1,6 @@
 ---
 title: Passion
+published: true
 routes:
     default: /passion
 ---
