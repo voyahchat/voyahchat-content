@@ -1,9 +1,7 @@
 ---
-title: 'RuStore'
+title: 'HUD Speed'
 published: true
 ---
-
-Работает на Voyah Free 2021/2023 (дорест33, дорест39) и Voyah Free 2024/2025 (рест, 318) с шестой версией прошивки.
 
 1. [Включить USB Debugging](usb-debugging.md)
 
@@ -13,13 +11,13 @@ published: true
 
 # Windows
 
-1. Скачать [voyahchat-rustore.zip](https://voyahchat.ru/voyahchat-rustore.zip)
+1. Скачать [voyahchat-hudspeed.zip](https://voyahchat.ru/voyahchat-hudspeed.zip)
 
-2. Разархивировать `voyahchat-rustore.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
+2. Разархивировать `voyahchat-hudspeed.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
-3. Войти в директорию `voyahchat-rustore`
+3. Войти в директорию `voyahchat-hudspeed`
 
-4. Запустить пакетный файл Windows `voyahchat-rustore.bat`
+4. Запустить пакетный файл Windows `voyahchat-hudspeed.bat`
 
 # Mac
 
@@ -28,16 +26,16 @@ published: true
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-rustore-mac.zip
+  * Скачать voyahchat-hudspeed-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-rustore-mac.zip
+curl -O https://voyahchat.ru/voyahchat-hudspeed-mac.zip
  ```
   * Разархивировать
 ```
-unzip -o voyahchat-rustore-mac.zip
+unzip -o voyahchat-hudspeed-mac.zip
 ```
   * Выполнить скрипт установки
 ```
-sh ./voyahchat-rustore.sh
+sh ./voyahchat-hudspeed.sh
 ```
 

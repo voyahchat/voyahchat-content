@@ -7,7 +7,7 @@ published: true
 
 # Требования
   * ноутбук (Windows, Mac, Linux)
-  * [кабель](/common/cable)
+  * [кабель](cable.md)
   * программа удалённого доступа (RuDesktop, AnyDesk)
   * хороший интернет на ноутбуке и в машине
 

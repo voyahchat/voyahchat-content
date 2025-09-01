@@ -5,9 +5,9 @@ published: true
 
 В Телеграм можно отправлять в машину ссылки на YouTube, точки для Яндекс Навигатора, APK приложений для установки.
 
-1. [Включить USB Debugging](https://voyahchat.ru/common/usb-debugging)
+1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](https://voyahchat.ru/common/cable) (на доресте в порт ближе к водителю)
+2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
@@ -21,7 +21,7 @@ published: true
 
 # Windows
 
-1. Скачать [voyahchat-telegram.zip](/voyahchat-telegram.zip)
+1. Скачать [voyahchat-telegram.zip](https://voyahchat.ru/voyahchat-telegram.zip)
 
 2. Разархивировать `voyahchat-telegram.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 

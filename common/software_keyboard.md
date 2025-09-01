@@ -7,17 +7,17 @@ published: true
 
 Клавиатура будет работать только на центральном экране, на экране пассажира будет китайская клавиатура.
 
-Инструкция написана для Яндекс Клавиатуры. Яндекс Клавиатура не может быть установлена, если у вас установлен [Яндекс Навигатор для NXP](../yandex-navi-nxp).
+Инструкция написана для Яндекс Клавиатуры. Яндекс Клавиатура не может быть установлена, если у вас установлен [Яндекс Навигатор для NXP](software_yandex-navi-nxp.md).
 
 Вместо Яндекс Клавиатуры можно установить Google Gboard или Microsoft Swiftkey из APKPure и сделать аналогичные настройки.
 
-1. [Включить USB Debugging](https://voyahchat.ru/common/usb-debugging)
+1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](https://voyahchat.ru/common/cable) (на доресте в порт ближе к водителю)
+2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
-4. В VoyahTweaks [выбрать и включить клавиатуру](/common/tweaks/settings#настройки), в Cunba в настройках выбрать `Отключить китайскую клавиатуру`
+4. В VoyahTweaks [выбрать и включить клавиатуру](tweaks_settings.md#настройки), в Cunba в настройках выбрать `Отключить китайскую клавиатуру`
 
 5. Переключиться в лаунчер приложений, нажав на центральном экране четыре квадратика внизу
 
@@ -33,7 +33,7 @@ published: true
 
 # Windows
 
-1. Скачать [voyahchat-keyboard-yandex.zip](/voyahchat-keyboard-yandex.zip)
+1. Скачать [voyahchat-keyboard-yandex.zip](https://voyahchat.ru/voyahchat-keyboard-yandex.zip)
 
 2. Разархивировать `voyahchat-keyboard-yandex.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 

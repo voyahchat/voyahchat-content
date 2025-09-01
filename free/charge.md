@@ -30,3 +30,4 @@ published: true
 Максимальный уровень разряда можно задать в настройках
 
 ![Auto -> CHG & DISC -> Discarge](charge-discharge.png "Auto -> CHG & DISC -> Discarge")
+

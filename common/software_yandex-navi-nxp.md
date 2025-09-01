@@ -5,19 +5,19 @@ published: true
 
 NXP это старый чип на дорест33, прежде чем начинать установку [убедитесь, что у вас именно NXP, а не 8155](https://t.me/voyahchat/32898/92496).
 
-Если у вас 8155 — установите Яндекс Навигатор из [магазина приложений](/common/software#магазины-приложний).
+Если у вас 8155 — установите Яндекс Навигатор из [магазина приложений](software.md#магазины-приложний).
 
 Это Яндекс Навигатор пересобранный и подписанный НЕ сертификатом Яндекса. После его установки вы НЕ сможете установить никакое другое приложение Яндекса.
 
-1. [Включить USB Debugging](https://voyahchat.ru/common/usb-debugging)
+1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](https://voyahchat.ru/common/cable) (на доресте в порт ближе к водителю)
+2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
 # Windows
 
-1. Скачать [voyahchat-yandex-navi-nxp.zip](/voyahchat-yandex-navi-nxp.zip)
+1. Скачать [voyahchat-yandex-navi-nxp.zip](https://voyahchat.ru/voyahchat-yandex-navi-nxp.zip)
 
 2. Разархивировать `voyahchat-yandex-navi-nxp.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 

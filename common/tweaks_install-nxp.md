@@ -5,13 +5,13 @@ published: true
 
 NXP это старый чип на дорест33, прежде чем начинать установку [убедитесь, что у вас именно NXP, а не 8155](https://t.me/voyahchat/32898/92496).
 
-Если у вас 8155 — [используйте другую инструкцию](/common/tweaks/install).
+Если у вас 8155 — [используйте другую инструкцию](tweaks_install.md).
 
-1. Если была установлена Кунба и она не нужна — сделать [factory reset](/common/reset)
+1. Если была установлена Кунба и она не нужна — сделать [factory reset](reset.md)
 
-2. Включить [USB Debugging](/common/usb-debugging)
+2. Включить [USB Debugging](usb-debugging.md)
 
-3. Подключить [USB Type-A — Type-A кабель](/common/cable) в порт USB Type-A ближе к водителю
+3. Подключить [USB Type-A — Type-A кабель](cable.md) в порт USB Type-A ближе к водителю
 
 4. Отформатировать флешку в FAT32
 
@@ -29,19 +29,19 @@ NXP это старый чип на дорест33, прежде чем начи
 
     Лаунчер со стандартными приложениями доступен по долгому нажатию на четыре квадратика или свайпом влево на экране Домик.
 
-    Дальше можно воспользоваться [инструкцией по настройке приложений на NXP](/common/software/setup-nxp).
+    Дальше можно воспользоваться [инструкцией по настройке приложений на NXP](software_setup-nxp.md).
 
-11. После установки всех приложений [выключить USB Debugging](/common/usb-debugging)
+11. После установки всех приложений [выключить USB Debugging](usb-debugging.md)
 
 12. Переставить флешку в порт ближе к водителю. Если используется вторая флешка для музыки — её вставлять в порт ближе к пассажиру. Флешка должна быть всегда воткнута при старте машины, она запускает правильные процессы в мультимедии
 
 # Windows
 
-1. Скачать [voyahtweaks-2.1.0.zip](/voyahtweaks-2.1.0.zip)
+1. Скачать [VoyahTweaks_2.4.3.zip](https://voyahchat.ru/VoyahTweaks_2.4.3.zip)
 
-2. Разархивировать `voyahtweaks-2.1.0.zip` в корень диска `C:`
+2. Разархивировать `VoyahTweaks_2.4.3.zip` в корень диска `C:`
 
-3. Зайти в директорию `C:\VoyahTweaks`
+3. Зайти в директорию `C:\VoyahTweaks_2.4.3`
 
 4. Запустить `install.bat`
 
@@ -52,19 +52,20 @@ NXP это старый чип на дорест33, прежде чем начи
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahtweaks-2.1.0.zip
+  * Скачать VoyahTweaks_2.4.3.zip
 ```
-curl -O https://voyahchat.ru/voyahtweaks-2.1.0.zip
+curl -O https://voyahchat.ru/VoyahTweaks_2.4.3.zip
 ```
   * Разархивировать
 ```
-unzip -o voyahtweaks-2.1.0.zip
+unzip -o VoyahTweaks_2.4.3.zip
 ```
-  * Перейти в директорию `VoyahTweaks`
+  * Перейти в директорию `VoyahTweaks_2.4.3`
 ```
-cd VoyahTweaks
+cd VoyahTweaks_2.4.3
 ```
   * Выполнить скрипт установки
 ```
 sh ./install.sh
 ```
+

@@ -9,7 +9,7 @@ published: true
 
 2. Нажимаем несколько раз на `Hardware version` (Аппаратная версия)
 
-3. [Вводим пароль](../password). Если клавиатура не появляется — выполните пункт 1 на экране пассажира или подключите USB-клавиатуру ([такую](https://www.ozon.ru/product/klaviatura-ds02036-rongx-k1j7m0-raznotsvetnyy-1745698916/) или [полноразмерную](https://www.ozon.ru/product/klaviatura-provodnaya-usb-garnizon-gk-100-kabel-1-5-m-chernyy-184898304/))
+3. [Вводим пароль](password.md). Если клавиатура не появляется — выполните пункт 1 на экране пассажира или подключите USB-клавиатуру ([такую](https://www.ozon.ru/product/klaviatura-ds02036-rongx-k1j7m0-raznotsvetnyy-1745698916/) или [полноразмерную](https://www.ozon.ru/product/klaviatura-provodnaya-usb-garnizon-gk-100-kabel-1-5-m-chernyy-184898304/))
 
 4. Находим `USB debugging` (Отладка по USB) на один экран ниже и активируем его
 

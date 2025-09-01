@@ -5,17 +5,17 @@ published: true
 
 Имя машины используется при подключении к машине по Bluebooth и Wi-Fi (режим AP Host).
 
-1. [Включить USB Debugging](https://voyahchat.ru/common/usb-debugging)
+1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](https://voyahchat.ru/common/cable) (на доресте в порт ближе к водителю)
+2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
 
 3. Запустить скрипт на [Windows](#windows) или [Mac](#mac)
 
-4. [Перезагрузить машину](/common/reboot#мультимедиа) для применения изменений
+4. [Перезагрузить машину](reboot.md#мультимедиа) для применения изменений
 
 # Windows
 
-1. Скачать [voyahchat-device-name.zip](/voyahchat-device-name.zip)
+1. Скачать [voyahchat-device-name.zip](https://voyahchat.ru/voyahchat-device-name.zip)
 
 2. Разархивировать `voyahchat-device-name.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 

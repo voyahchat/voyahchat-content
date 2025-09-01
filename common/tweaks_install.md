@@ -3,9 +3,9 @@ title: 'Установка'
 published: true
 ---
 
-1. Включить [USB Debugging](/common/usb-debugging)
+1. Включить [USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](/common/cable) на ресте/318 в USB Type-A, на доресте в порт USB Type-A ближе к водителю
+2. Подключить [USB Type-A — Type-A кабель](cable.md) на ресте/318 в USB Type-A, на доресте в порт USB Type-A ближе к водителю
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
@@ -17,15 +17,15 @@ published: true
 
 Лаунчер со стандартными приложениями доступен по долгому нажатию на четыре квадратика или свайпом влево на экране Домик (дорест, рест до OTA6).
 
-Дальше можно воспользоваться [инструкцией по настройке приложений](/common/software/setup).
+Дальше можно воспользоваться [инструкцией по настройке приложений](software_setup.md).
 
 # Windows
 
-1. Скачать [voyahtweaks-2.1.0.zip](/voyahtweaks-2.1.0.zip)
+1. Скачать [VoyahTweaks_2.4.3.zip](https://voyahchat.ru/VoyahTweaks_2.4.3.zip)
 
-2. Разархивировать `voyahtweaks-2.1.0.zip` в корень диска `C:`
+2. Разархивировать `VoyahTweaks_2.4.3.zip` в корень диска `C:`
 
-3. Зайти в директорию `C:\VoyahTweaks`
+3. Зайти в директорию `C:\VoyahTweaks_2.4.3`
 
 4. Запустить `install.bat`
 
@@ -36,17 +36,17 @@ published: true
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahtweaks-2.1.0.zip
+  * Скачать VoyahTweaks_2.4.3.zip
 ```
-curl -O https://voyahchat.ru/voyahtweaks-2.1.0.zip
+curl -O https://voyahchat.ru/VoyahTweaks_2.4.3.zip
 ```
   * Разархивировать
 ```
-unzip -o voyahtweaks-2.1.0.zip
+unzip -o VoyahTweaks_2.4.3.zip
 ```
-  * Перейти в директорию `VoyahTweaks`
+  * Перейти в директорию `VoyahTweaks_2.4.3`
 ```
-cd VoyahTweaks
+cd VoyahTweaks_2.4.3
 ```
   * Выполнить скрипт установки
 ```
