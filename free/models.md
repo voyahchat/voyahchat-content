@@ -70,4 +70,4 @@ tr:hover td {
 | Ближний/Дальний Вт, + = 24/72, * = 24/21               | +                | +, * норвежка    |
 
 
-[ОТТС «норвежской» версии](voyah-free-ev-norway-otts.pdf "ОТТС «норвежской» версии")
+[ОТТС «норвежской» версии](https://github.com/voyahchat/voyahchat-docs/raw/refs/heads/main/voyah-free-ev-norway-otts.pdf "ОТТС «норвежской» версии")

@@ -12,7 +12,7 @@ title: 'RuStore'
 
 # Windows
 
-1. Скачать [voyahchat-rustore.zip](https://voyahchat.ru/voyahchat-rustore.zip)
+1. Скачать [voyahchat-rustore.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-rustore.zip)
 
 2. Разархивировать `voyahchat-rustore.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -29,7 +29,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-rustore-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-rustore-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-rustore-mac.zip
  ```
   * Разархивировать
 ```

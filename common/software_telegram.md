@@ -20,7 +20,7 @@ title: 'TelegramX'
 
 # Windows
 
-1. Скачать [voyahchat-telegram.zip](https://voyahchat.ru/voyahchat-telegram.zip)
+1. Скачать [voyahchat-telegram.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-telegram.zip)
 
 2. Разархивировать `voyahchat-telegram.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -37,7 +37,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-telegram-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-telegram-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-telegram-mac.zip
  ```
   * Разархивировать
 ```

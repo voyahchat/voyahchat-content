@@ -14,7 +14,7 @@ title: 'Изменение имени машины'
 
 # Windows
 
-1. Скачать [voyahchat-device-name.zip](https://voyahchat.ru/voyahchat-device-name.zip)
+1. Скачать [voyahchat-device-name.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-device-name.zip)
 
 2. Разархивировать `voyahchat-device-name.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -33,7 +33,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-device-name-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-device-name-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-device-name-mac.zip
 ```
   * Разархивировать
 ```

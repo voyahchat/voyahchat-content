@@ -10,7 +10,7 @@ title: 'APKPure'
 
 # Windows
 
-1. Скачать [voyahchat-apkpure.zip](https://voyahchat.ru/voyahchat-apkpure.zip)
+1. Скачать [voyahchat-apkpure.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-apkpure.zip)
 
 2. Разархивировать `voyahchat-apkpure.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -27,7 +27,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-apkpure-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-apkpure-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-apkpure-mac.zip
  ```
   * Разархивировать
 ```

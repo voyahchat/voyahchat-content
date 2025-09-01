@@ -32,7 +32,7 @@ title: 'Клавиатура'
 
 # Windows
 
-1. Скачать [voyahchat-keyboard-yandex.zip](https://voyahchat.ru/voyahchat-keyboard-yandex.zip)
+1. Скачать [voyahchat-keyboard-yandex.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-yandex.zip)
 
 2. Разархивировать `voyahchat-keyboard-yandex.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -49,7 +49,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-keyboard-yandex-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-keyboard-yandex-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-yandex-mac.zip
  ```
   * Разархивировать
 ```

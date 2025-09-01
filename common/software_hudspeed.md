@@ -10,7 +10,7 @@ title: 'HUD Speed'
 
 # Windows
 
-1. Скачать [voyahchat-hudspeed.zip](https://voyahchat.ru/voyahchat-hudspeed.zip)
+1. Скачать [voyahchat-hudspeed.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-hudspeed.zip)
 
 2. Разархивировать `voyahchat-hudspeed.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -27,7 +27,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-hudspeed-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-hudspeed-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-hudspeed-mac.zip
  ```
   * Разархивировать
 ```

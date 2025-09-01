@@ -36,7 +36,7 @@ NXP это старый чип на дорест33, прежде чем начи
 
 # Windows
 
-1. Скачать [VoyahTweaks_2.4.3.zip](https://voyahchat.ru/VoyahTweaks_2.4.3.zip)
+1. Скачать [VoyahTweaks_2.4.3.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.4.3.zip)
 
 2. Разархивировать `VoyahTweaks_2.4.3.zip` в корень диска `C:`
 
@@ -53,7 +53,7 @@ cd ~/Downloads
 ```
   * Скачать VoyahTweaks_2.4.3.zip
 ```
-curl -O https://voyahchat.ru/VoyahTweaks_2.4.3.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.4.3.zip
 ```
   * Разархивировать
 ```

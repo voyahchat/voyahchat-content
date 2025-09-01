@@ -23,7 +23,7 @@ title: 'YouTube'
 
 # Windows
 
-1. Скачать [voyahchat-youtube.zip](https://voyahchat.ru/voyahchat-youtube.zip)
+1. Скачать [voyahchat-youtube.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-youtube.zip)
 
 2. Разархивировать `voyahchat-youtube.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -40,7 +40,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-youtube-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-youtube-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-youtube-mac.zip
  ```
   * Разархивировать
 ```

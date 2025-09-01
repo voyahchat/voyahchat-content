@@ -16,7 +16,7 @@ AutoKit может быть использован без CunBA или VoyahTwea
 
 # Windows
 
-1. Скачать [voyahchat-autokit.zip](https://voyahchat.ru/voyahchat-autokit.zip)
+1. Скачать [voyahchat-autokit.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-autokit.zip)
 
 2. Разархивировать `voyahchat-autokit.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
 
@@ -38,7 +38,7 @@ cd ~/Downloads
 ```
   * Скачать voyahchat-autokit-mac.zip
 ```
-curl -O https://voyahchat.ru/voyahchat-autokit-mac.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-autokit-mac.zip
  ```
   * Разархивировать
 ```
