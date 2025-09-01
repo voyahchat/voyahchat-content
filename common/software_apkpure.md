@@ -1,6 +1,5 @@
 ---
 title: 'APKPure'
-published: true
 ---
 
 1. [Включить USB Debugging](usb-debugging.md)

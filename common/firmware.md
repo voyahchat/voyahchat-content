@@ -1,6 +1,5 @@
 ---
 title: 'Прошивка'
-published: true
 ---
 
 # Китай

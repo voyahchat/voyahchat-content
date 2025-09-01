@@ -1,6 +1,5 @@
 ---
 title: 'Возможности'
-published: true
 ---
 
 [Видео обзор 2.0.0](https://t.me/VoyahTweaks/43)

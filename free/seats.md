@@ -1,6 +1,5 @@
 ---
 title: 'Сиденья'
-published: true
 ---
 
 # Положение

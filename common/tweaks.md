@@ -1,6 +1,5 @@
 ---
 title: 'VoyahTweaks'
-published: true
 ---
 
 VoyahTweaks — это программа для Android, которая устанавливается в машину. Создана группой энтузиастов при поддержке сообщества [Voyah Chat](https://t.me/voyahchat) и компании [E.N.Cars](https://e-n-cars.ru/) (Автомобили из Китая).

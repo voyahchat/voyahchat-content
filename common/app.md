@@ -1,6 +1,5 @@
 ---
 title: 'Приложение Lantu'
-published: true
 ---
 
 <img class=app-icon src='account-app-icon-lantu.png' alt=''>Для управления автомобилями Voyah используется приложение 岚图汽车.

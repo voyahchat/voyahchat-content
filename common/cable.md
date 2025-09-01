@@ -1,6 +1,5 @@
 ---
 title: 'Кабель подключения к машине'
-published: true
 ---
 
 Точно работает [USB 2.0 Type-A — Type-A](https://www.ozon.ru/product/kabel-usb-2-0-pro-am-am-1-8-m-ekran-chernyy-cablexpert-193942384/)

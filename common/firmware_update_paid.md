@@ -1,6 +1,5 @@
 ---
 title: 'Платно'
-published: true
 ---
 
 Подать заявку на платное удалённое обновление прошивки можно через [бота](https://t.me/voyah_help_bot) или в [закрытом чате](https://t.me/+JftLkZ-jTFA4OGYy).

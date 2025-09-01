@@ -1,6 +1,5 @@
 ---
 title: 'Приложения'
-published: true
 ---
 
 

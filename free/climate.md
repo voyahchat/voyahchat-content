@@ -1,6 +1,5 @@
 ---
 title: 'Климат'
-published: true
 ---
 
 # Настройки

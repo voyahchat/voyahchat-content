@@ -1,6 +1,5 @@
 ---
 title: '2021, NXP'
-published: true
 ---
 
 # 20230301

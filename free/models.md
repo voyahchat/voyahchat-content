@@ -1,6 +1,5 @@
 ---
 title: Модели
-published: true
 ---
 
 # Гибрид

@@ -1,6 +1,5 @@
 ---
 title: 'Autokit'
-published: true
 ---
 
 Используйте Carlinkit [CPC200-CCPA](https://www.carlinkit.com/ccpa) (беспроводное подключение телефона) или [CPC200-CCPM](https://www.carlinkit.com/ccpm) (проводное подключение телефона).

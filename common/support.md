@@ -1,6 +1,5 @@
 ---
 title: 'Написать в поддержку'
-published: true
 ---
 
 # Lantu

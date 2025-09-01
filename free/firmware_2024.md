@@ -1,6 +1,5 @@
 ---
 title: '2024/2025'
-published: true
 ---
 
 # 1.3.17

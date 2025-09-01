@@ -1,6 +1,5 @@
 ---
 title: 'ДВС'
-published: true
 ---
 
 # Топливо

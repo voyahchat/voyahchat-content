@@ -1,6 +1,5 @@
 ---
 title: 'Режимы вождения'
-published: true
 ---
 
 # Eco

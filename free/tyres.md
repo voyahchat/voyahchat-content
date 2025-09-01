@@ -1,6 +1,5 @@
 ---
 title: Шины/диски
-published: true
 ---
 
 # Шины

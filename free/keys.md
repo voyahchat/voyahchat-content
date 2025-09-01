@@ -1,6 +1,5 @@
 ---
 title: 'Ключи'
-published: true
 ---
 
 # Виды ключей

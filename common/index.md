@@ -1,6 +1,5 @@
 ---
 title: 'Общее Free/Dreamer'
-published: true
 ---
 
 # Lantu
