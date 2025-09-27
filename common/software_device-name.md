@@ -1,7 +1,3 @@
----
-title: 'Изменение имени машины'
----
-
 Имя машины используется при подключении к машине по Bluebooth и Wi-Fi (режим AP Host).
 
 1. [Включить USB Debugging](usb-debugging.md)

@@ -1,7 +1,3 @@
----
-title: 'Свет'
----
-
 # Адаптивный свет
 
 В рестайлингах эта функция недоступна.
@@ -14,4 +10,4 @@ title: 'Свет'
 
 # Регулировка
 
-[plugin:youtube](https://youtu.be/bsgLJcQz43s)
+![type:video](https://www.youtube.com/embed/bsgLJcQz43s)

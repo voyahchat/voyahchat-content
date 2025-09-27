@@ -1,7 +1,3 @@
----
-title: 'YouTube'
----
-
 1. [Включить USB Debugging](usb-debugging.md)
 
 2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)

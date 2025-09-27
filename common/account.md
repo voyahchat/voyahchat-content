@@ -1,7 +1,3 @@
----
-title: 'Учётная запись Lantu'
----
-
 <p class=text-with-icon><img class='text-with-icon__icon app-icon' src='account-app-icon-lantu.png' alt=''><span>Для управления автомобилями Voyah используется приложение <span style='text-wrap:nowrap'>岚图汽车</span>.</span></p>
 
 Приложение только на китайском, используйте экранный переводчик.

@@ -1,7 +1,3 @@
----
-title: 'Autokit'
----
-
 Используйте Carlinkit [CPC200-CCPA](https://www.carlinkit.com/ccpa) (беспроводное подключение телефона) или [CPC200-CCPM](https://www.carlinkit.com/ccpm) (проводное подключение телефона).
 
 AutoKit может быть использован без CunBA или VoyahTweaks, в этом случае не будет работать управление музыкой на руле.

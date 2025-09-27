@@ -1,7 +1,3 @@
----
-title: 'Общее Free/Dreamer'
----
-
 # Lantu
 
 * [Учётная запись Lantu](account.md)
@@ -25,7 +21,7 @@ title: 'Общее Free/Dreamer'
 * [Возможности](tweaks_features.md)
 * [Настройки](tweaks_settings.md)
 * [Голосовые команды](tweaks_voice.md)
-* [Установка](tweaks#установка)
+* [Установка](tweaks.md#установка)
 * [Изменения по версиям](tweaks_changelog.md)
 * [Платная установка/настройка VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
 

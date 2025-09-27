@@ -1,7 +1,3 @@
----
-title: 'RuStore'
----
-
 Работает на Voyah Free 2021/2023 (дорест33, дорест39) и Voyah Free 2024/2025 (рест, 318) с шестой версией прошивки.
 
 1. [Включить USB Debugging](usb-debugging.md)

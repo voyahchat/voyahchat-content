@@ -1,7 +1,3 @@
----
-title: 'Установка'
----
-
 1. Включить [USB Debugging](usb-debugging.md)
 
 2. Подключить [USB Type-A — Type-A кабель](cable.md) на ресте/318 в USB Type-A, на доресте в порт USB Type-A ближе к водителю
