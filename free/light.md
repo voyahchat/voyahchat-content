@@ -10,4 +10,4 @@
 
 # Регулировка
 
-![type:video](https://www.youtube.com/embed/bsgLJcQz43s)
+@[youtube](bsgLJcQz43s)
