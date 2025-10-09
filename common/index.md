@@ -29,7 +29,7 @@
 ## CarPlay
 * [AutoKit](software_autokit.md)
 
-## Магазины приложний
+## Магазины приложений
 * [APKPure](software_apkpure.md)
 * [RuStore](software_rustore.md)
 
