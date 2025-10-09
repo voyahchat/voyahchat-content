@@ -25,23 +25,23 @@
 * [Изменения по версиям](tweaks_changelog.md)
 * [Платная установка/настройка VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
 
-## Установка приложений с ноутбука
-### CarPlay
+# Установка приложений с компьютера
+## CarPlay
 * [AutoKit](software_autokit.md)
 
-### Магазины приложний
+## Магазины приложний
 * [APKPure](software_apkpure.md)
 * [RuStore](software_rustore.md)
 
-### Приложения
+## Приложения
 * [Клавиатура](software_keyboard.md)
 * [YouTube](software_youtube.md)
 * [TelegramX](software_telegram.md) — с возможностью установки приложений
 
-### Приложения только для NXP
+## Приложения только для NXP
 * [Yandex Navigator NXP](software_yandex-navi-nxp.md)
 
-## APK
+# APK
 * [Ссылки на популярные приложения](software_links.md)
 
 # Разное
