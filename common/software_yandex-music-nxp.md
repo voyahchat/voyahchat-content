@@ -1,10 +1,6 @@
----
-title: 'Yandex Music NXP'
----
-
 NXP это старый чип на дорест33, прежде чем начинать установку [убедитесь, что у вас именно NXP, а не 8155](https://t.me/voyahchat/32898/92496).
 
-Если у вас 8155 — установите Яндекс Музыку из [магазина приложений](software.md#магазины-приложний).
+Если у вас 8155 — установите Яндекс Музыку из [магазина приложений](software.md#магазины-приложений).
 
 1. [Включить USB Debugging](usb-debugging.md)
 
@@ -41,4 +37,3 @@ unzip -o voyahchat-yandex-music-nxp-mac.zip
 ```
 sh ./voyahchat-yandex-music-nxp.sh
 ```
-
