@@ -6,29 +6,6 @@
 
 # PHEV
 
-<style>
-table {
-    width: auto;
-
-    font-size: 70%;
-    hyphens: auto;
-}
-
-table th, table td {
-    padding: 0.4rem 0.4rem;
-
-    border: 1px solid #ddd;
-}
-
-th, td:first-of-type {
-    background: #eee;
-}
-
-tr:hover td {
-    background: #ddd;
-}
-</style>
-
 | Старт продаж                                              | 05.2022        | 10.2023        | 09.2024        |
 | --------------------------------------------------------- | -------------- | -------------- | -------------- |
 | Ёмкость тяговой батареи, кВт*ч                            | 25.57          | 43             | 41.7           |
