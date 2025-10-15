@@ -1,4 +1,4 @@
-Точно работает [USB 2.0 Type-A — Type-A](https://www.ozon.ru/product/kabel-usb-2-0-pro-am-am-1-8-m-ekran-chernyy-cablexpert-193942384/)
+Точно работает [USB 2.0 Type-A — Type-A](https://www.ozon.ru/product/kabel-usb2-0-cablexpert-cc-usb2-amam-1-8m-am-am-ekran-28-26awg-med-pro-1-8m-chernyy-1714209694/)
 
 Type-C — Type-C, Type-A — Type-C НЕ работает, порт Type-C в машине только для зарядки.
 
