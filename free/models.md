@@ -1,28 +1,5 @@
 # Гибрид
 
-<style>
-table {
-    width: auto;
-
-    font-size: 70%;
-    hyphens: auto;
-}
-
-table th, table td {
-    padding: 0.4rem 0.4rem;
-
-    border: 1px solid #ddd;
-}
-
-th, td:first-of-type {
-    background: #eee;
-}
-
-tr:hover td {
-    background: #ddd;
-}
-</style>
-
 |                                                        | 2021<br>дорест33 | 2023<br>дорест39 | 2024<br>рест | 2025<br>318  |
 | ------------------------------------------------------ | ---------------- | ---------------- | ------------ | ------------ |
 | ДВС                                                    | SFG15TR          | SFG15TR          | M15NTDE      | M15NTDE      |
