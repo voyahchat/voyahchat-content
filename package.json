@@ -1,0 +1,16 @@
+{
+  "name": "voyahchat-content",
+  "version": "1.0.0",
+  "description": "VoyahChat content repository with image conversion utilities",
+  "scripts": {
+    "convert:images": "node convert-images.js",
+    "convert:images:dry-run": "node convert-images.js --dry-run",
+    "convert:images:force": "node convert-images.js --force"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

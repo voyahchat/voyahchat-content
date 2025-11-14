@@ -1,0 +1,662 @@
+{
+  "b5991eab1b6f14e7568b4285d19f74e8": {
+    "timestamp": 1763126862595,
+    "avif": {
+      "success": true,
+      "size": 1232
+    },
+    "webp": {
+      "success": true,
+      "size": 5580
+    }
+  },
+  "8ea80f17ad0779ccff161f1032729e13": {
+    "timestamp": 1763126862595,
+    "avif": {
+      "success": true,
+      "size": 1588
+    },
+    "webp": {
+      "success": true,
+      "size": 19236
+    }
+  },
+  "95d16f6ef672d4cff984d0313e9e0b1f": {
+    "timestamp": 1763126862595,
+    "avif": {
+      "success": true,
+      "size": 59843
+    },
+    "webp": {
+      "success": true,
+      "size": 62782
+    }
+  },
+  "736748728d175ce924772f3023ca60cf": {
+    "timestamp": 1763126862595,
+    "avif": {
+      "success": true,
+      "size": 19506
+    },
+    "webp": {
+      "success": true,
+      "size": 144278
+    }
+  },
+  "256dc5530a2d803cfac4ba4d2f7fbd51": {
+    "timestamp": 1763126873238,
+    "avif": {
+      "success": true,
+      "size": 16032
+    },
+    "webp": {
+      "success": true,
+      "size": 203046
+    }
+  },
+  "972e0879cc71aca02000c5f1b91a3f91": {
+    "timestamp": 1763126873238,
+    "avif": {
+      "success": true,
+      "size": 13376
+    },
+    "webp": {
+      "success": true,
+      "size": 247956
+    }
+  },
+  "a82669a328161a4accddd8db9a1e6b7c": {
+    "timestamp": 1763126873238,
+    "avif": {
+      "success": true,
+      "size": 37065
+    },
+    "webp": {
+      "success": true,
+      "size": 168778
+    }
+  },
+  "7ec71e0a82b5594449cc5914b0225dc2": {
+    "timestamp": 1763126877206,
+    "avif": {
+      "success": true,
+      "size": 39191
+    },
+    "webp": {
+      "success": true,
+      "size": 181016
+    }
+  },
+  "0bf950b4524d5806032bfc440cafe672": {
+    "timestamp": 1763126880020,
+    "avif": {
+      "success": true,
+      "size": 50655
+    },
+    "webp": {
+      "success": true,
+      "size": 337410
+    }
+  },
+  "6a331068677b36b45c700aebfbaf82a5": {
+    "timestamp": 1763126882832,
+    "avif": {
+      "success": true,
+      "size": 13710
+    },
+    "webp": {
+      "success": true,
+      "size": 184906
+    }
+  },
+  "2b0f00e921cfb4bcaee876c261aa387b": {
+    "timestamp": 1763126886863,
+    "avif": {
+      "success": true,
+      "size": 7430
+    },
+    "webp": {
+      "success": true,
+      "size": 167228
+    }
+  },
+  "1c41a94fe1fa9ca2b2aef290ed39daa9": {
+    "timestamp": 1763126886863,
+    "avif": {
+      "success": true,
+      "size": 9076
+    },
+    "webp": {
+      "success": true,
+      "size": 73904
+    }
+  },
+  "e76c60efc29b2997a87554cb816677f9": {
+    "timestamp": 1763126886863,
+    "avif": {
+      "success": true,
+      "size": 9203
+    },
+    "webp": {
+      "success": true,
+      "size": 174996
+    }
+  },
+  "c86693e3fdd15b74af49cf3b8d0637f2": {
+    "timestamp": 1763126886863,
+    "avif": {
+      "success": true,
+      "size": 20644
+    },
+    "webp": {
+      "success": true,
+      "size": 189768
+    }
+  },
+  "05ff7161d9fe0d460e5881134600ab38": {
+    "timestamp": 1763126888826,
+    "avif": {
+      "success": true,
+      "size": 13246
+    },
+    "webp": {
+      "success": true,
+      "size": 138844
+    }
+  },
+  "82e4c2cad2749f4750fbcdeda07134ed": {
+    "timestamp": 1763126888826,
+    "avif": {
+      "success": true,
+      "size": 7670
+    },
+    "webp": {
+      "success": true,
+      "size": 76562
+    }
+  },
+  "e3d13fc0c1fdd3575b85c66a793d2511": {
+    "timestamp": 1763126888826,
+    "avif": {
+      "success": true,
+      "size": 14185
+    },
+    "webp": {
+      "success": true,
+      "size": 182600
+    }
+  },
+  "7745b814b36a3ded59f8659f59cc3953": {
+    "timestamp": 1763126889084,
+    "avif": {
+      "success": true,
+      "size": 17217
+    },
+    "webp": {
+      "success": true,
+      "size": 212272
+    }
+  },
+  "44b31e27fbcf8e8ef4ff76a620055bbd": {
+    "timestamp": 1763126890597,
+    "avif": {
+      "success": true,
+      "size": 10923
+    },
+    "webp": {
+      "success": true,
+      "size": 118618
+    }
+  },
+  "24ed57aaa1ee2bb9cd1bc68273d34662": {
+    "timestamp": 1763126891172,
+    "avif": {
+      "success": true,
+      "size": 13411
+    },
+    "webp": {
+      "success": true,
+      "size": 157512
+    }
+  },
+  "ddc6eaa55c3931b95abfd35dd53def7a": {
+    "timestamp": 1763126893904,
+    "avif": {
+      "success": true,
+      "size": 5856
+    },
+    "webp": {
+      "success": true,
+      "size": 73898
+    }
+  },
+  "35da3544b8f4fcdc4eec88bf5a73977c": {
+    "timestamp": 1763126893904,
+    "avif": {
+      "success": true,
+      "size": 5856
+    },
+    "webp": {
+      "success": true,
+      "size": 73898
+    }
+  },
+  "bc504e806000c91796d33ed92022b63c": {
+    "timestamp": 1763126893904,
+    "avif": {
+      "success": true,
+      "size": 6487
+    },
+    "webp": {
+      "success": true,
+      "size": 83800
+    }
+  },
+  "c9c39c25aa3bd74f5e816b4fa45300bf": {
+    "timestamp": 1763126893904,
+    "avif": {
+      "success": true,
+      "size": 5856
+    },
+    "webp": {
+      "success": true,
+      "size": 73898
+    }
+  },
+  "7b2d9e824c75f7f663678a8d7f0b7f77": {
+    "timestamp": 1763126901230,
+    "avif": {
+      "success": true,
+      "size": 10341
+    },
+    "webp": {
+      "success": true,
+      "size": 21588
+    }
+  },
+  "c74f55d1b2fd396357ef114f766ec1f0": {
+    "timestamp": 1763126901230,
+    "avif": {
+      "success": true,
+      "size": 6867
+    },
+    "webp": {
+      "success": true,
+      "size": 83558
+    }
+  },
+  "9a355f3f9a58c54295a93413af7e4602": {
+    "timestamp": 1763126901230,
+    "avif": {
+      "success": true,
+      "size": 10120
+    },
+    "webp": {
+      "success": true,
+      "size": 41290
+    }
+  },
+  "38a3a41e4db62b649dbf8a9407a9fa52": {
+    "timestamp": 1763126902521,
+    "avif": {
+      "success": true,
+      "size": 9592
+    },
+    "webp": {
+      "success": true,
+      "size": 39842
+    }
+  },
+  "fb2df69c71d261206a639562283dd3e9": {
+    "timestamp": 1763126905517,
+    "avif": {
+      "success": true,
+      "size": 9592
+    },
+    "webp": {
+      "success": true,
+      "size": 39842
+    }
+  },
+  "6707eb88ed1c0739508f2864b6d4ccf7": {
+    "timestamp": 1763126914322,
+    "avif": {
+      "success": true,
+      "size": 17993
+    },
+    "webp": {
+      "success": true,
+      "size": 91320
+    }
+  },
+  "984ce673832776d7a73fe3f70f1205a6": {
+    "timestamp": 1763126918130,
+    "avif": {
+      "success": true,
+      "size": 6058
+    },
+    "webp": {
+      "success": true,
+      "size": 10720
+    }
+  },
+  "5923e89ac6e603846e25b6c0e69db77d": {
+    "timestamp": 1763126918130,
+    "avif": {
+      "success": true,
+      "size": 13528
+    },
+    "webp": {
+      "success": true,
+      "size": 28748
+    }
+  },
+  "f3c6dee09358a0ef831a4248031a4f6f": {
+    "timestamp": 1763126918130,
+    "avif": {
+      "success": true,
+      "size": 26596
+    },
+    "webp": {
+      "success": true,
+      "size": 54602
+    }
+  },
+  "7cc297c398fbe0fc9e5aed853ade831e": {
+    "timestamp": 1763126931891,
+    "avif": {
+      "success": true,
+      "size": 30363
+    },
+    "webp": {
+      "success": true,
+      "size": 176960
+    }
+  },
+  "d1343759e5003db135ae7ab311fb1689": {
+    "timestamp": 1763126931891,
+    "avif": {
+      "success": true,
+      "size": 39471
+    },
+    "webp": {
+      "success": true,
+      "size": 220760
+    }
+  },
+  "1eb86985ff645eed922e77670d0b4a91": {
+    "timestamp": 1763126931891,
+    "avif": {
+      "success": false,
+      "size": 0
+    },
+    "webp": {
+      "success": true,
+      "size": 66072
+    }
+  },
+  "d4fe7286951102f1048ccc24258a756f": {
+    "timestamp": 1763126933869,
+    "avif": {
+      "success": true,
+      "size": 14035
+    },
+    "webp": {
+      "success": true,
+      "size": 61996
+    }
+  },
+  "f96ba4cfc78db3d7f37a89cdb0db900a": {
+    "timestamp": 1763126935871,
+    "avif": {
+      "success": true,
+      "size": 13529
+    },
+    "webp": {
+      "success": true,
+      "size": 87306
+    }
+  },
+  "cf456da4ad8ebcb117201739aba2eb77": {
+    "timestamp": 1763126936149,
+    "avif": {
+      "success": true,
+      "size": 27967
+    },
+    "webp": {
+      "success": true,
+      "size": 64964
+    }
+  },
+  "e17eda84238f813733b22f5c9608bace": {
+    "timestamp": 1763126955746,
+    "avif": {
+      "success": true,
+      "size": 34680
+    },
+    "webp": {
+      "success": true,
+      "size": 91258
+    }
+  },
+  "4b36c5c10d3569e209f5652daddf2b69": {
+    "timestamp": 1763126955746,
+    "avif": {
+      "success": true,
+      "size": 19120
+    },
+    "webp": {
+      "success": true,
+      "size": 223968
+    }
+  },
+  "ed2040c82b15111723218052cf8a5822": {
+    "timestamp": 1763126955746,
+    "avif": {
+      "success": true,
+      "size": 18695
+    },
+    "webp": {
+      "success": true,
+      "size": 217672
+    }
+  },
+  "af1d3aa402c184e59a4f0f3f86129d8b": {
+    "timestamp": 1763126955746,
+    "avif": {
+      "success": true,
+      "size": 13715
+    },
+    "webp": {
+      "success": true,
+      "size": 42410
+    }
+  },
+  "c466ff1c8008185c653b14d5585e51a1": {
+    "timestamp": 1763126967074,
+    "avif": {
+      "success": true,
+      "size": 17664
+    },
+    "webp": {
+      "success": true,
+      "size": 55990
+    }
+  },
+  "5f45f3ca16a6a40e4f1108589ac432da": {
+    "timestamp": 1763126967074,
+    "avif": {
+      "success": true,
+      "size": 25411
+    },
+    "webp": {
+      "success": true,
+      "size": 614716
+    }
+  },
+  "c1e51981c6060f87258237ad3574c7bf": {
+    "timestamp": 1763126967074,
+    "avif": {
+      "success": true,
+      "size": 17218
+    },
+    "webp": {
+      "success": true,
+      "size": 254986
+    }
+  },
+  "79f37f82a65e44d6fd13f575a9cce324": {
+    "timestamp": 1763126967099,
+    "avif": {
+      "success": true,
+      "size": 19034
+    },
+    "webp": {
+      "success": true,
+      "size": 222446
+    }
+  },
+  "3fdc45096674f3e679606454e31be4ca": {
+    "timestamp": 1763126969589,
+    "avif": {
+      "success": true,
+      "size": 15139
+    },
+    "webp": {
+      "success": true,
+      "size": 735412
+    }
+  },
+  "b59263c598d8051e2cf53655a41dcb05": {
+    "timestamp": 1763126969970,
+    "avif": {
+      "success": true,
+      "size": 17192
+    },
+    "webp": {
+      "success": true,
+      "size": 255492
+    }
+  },
+  "453f6b5b06919052d369a37875f5378e": {
+    "timestamp": 1763126974515,
+    "avif": {
+      "success": true,
+      "size": 15100
+    },
+    "webp": {
+      "success": true,
+      "size": 733876
+    }
+  },
+  "8485c9cb26ef4b05c56f24bce830f7d9": {
+    "timestamp": 1763126986510,
+    "avif": {
+      "success": true,
+      "size": 15295
+    },
+    "webp": {
+      "success": true,
+      "size": 733050
+    }
+  },
+  "04b7d125d4f0d3c7cff9a893d0171098": {
+    "timestamp": 1763126986510,
+    "avif": {
+      "success": true,
+      "size": 17214
+    },
+    "webp": {
+      "success": true,
+      "size": 255506
+    }
+  },
+  "9b3c60a1864a4890b911e1604715223e": {
+    "timestamp": 1763126986530,
+    "avif": {
+      "success": true,
+      "size": 17181
+    },
+    "webp": {
+      "success": true,
+      "size": 255150
+    }
+  },
+  "5f2c4af9ccff5c8ed7d6a5d5c8580526": {
+    "timestamp": 1763126986587,
+    "avif": {
+      "success": true,
+      "size": 16276
+    },
+    "webp": {
+      "success": true,
+      "size": 265722
+    }
+  },
+  "fb0d585a63706250ed737865a0a8c227": {
+    "timestamp": 1763126988568,
+    "avif": {
+      "success": true,
+      "size": 17157
+    },
+    "webp": {
+      "success": true,
+      "size": 255010
+    }
+  },
+  "4bc12bbbef0744606f1e3148fd132f90": {
+    "timestamp": 1763127002903,
+    "avif": {
+      "success": true,
+      "size": 15952
+    },
+    "webp": {
+      "success": true,
+      "size": 192944
+    }
+  },
+  "260442cfe6131ca99af595a11575ac77": {
+    "timestamp": 1763127002903,
+    "avif": {
+      "success": true,
+      "size": 17339
+    },
+    "webp": {
+      "success": true,
+      "size": 255026
+    }
+  },
+  "e697ce92c0b5ab015f7f71b7438e0fce": {
+    "timestamp": 1763127004026,
+    "avif": {
+      "success": true,
+      "size": 15846
+    },
+    "webp": {
+      "success": true,
+      "size": 192964
+    }
+  },
+  "2c80ec3e6c778ba46ead229ca10c7c01": {
+    "timestamp": 1763127004474,
+    "avif": {
+      "success": true,
+      "size": 21136
+    },
+    "webp": {
+      "success": true,
+      "size": 225740
+    }
+  },
+  "c2f2dc860399b395a7a925216dceb407": {
+    "timestamp": 1763127014454,
+    "avif": {
+      "success": true,
+      "size": 17316
+    },
+    "webp": {
+      "success": true,
+      "size": 239424
+    }
+  }
+}
