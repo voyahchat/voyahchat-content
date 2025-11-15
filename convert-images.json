@@ -1,662 +1,860 @@
 {
   "b5991eab1b6f14e7568b4285d19f74e8": {
-    "timestamp": 1763126862595,
+    "timestamp": 1763202369029,
     "avif": {
       "success": true,
-      "size": 1232
+      "size": 1232,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 5580
+      "size": 5580,
+      "quality": 90
     }
   },
   "8ea80f17ad0779ccff161f1032729e13": {
-    "timestamp": 1763126862595,
+    "timestamp": 1763202369029,
     "avif": {
       "success": true,
-      "size": 1588
+      "size": 1588,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 19236
+      "size": 19236,
+      "quality": 90
     }
   },
   "95d16f6ef672d4cff984d0313e9e0b1f": {
-    "timestamp": 1763126862595,
+    "timestamp": 1763202369029,
     "avif": {
       "success": true,
-      "size": 59843
+      "size": 59843,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 62782
+      "size": 62782,
+      "quality": 90
     }
   },
   "736748728d175ce924772f3023ca60cf": {
-    "timestamp": 1763126862595,
+    "timestamp": 1763202369029,
     "avif": {
       "success": true,
-      "size": 19506
+      "size": 19506,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 144278
+      "size": 144278,
+      "quality": 90
     }
   },
   "256dc5530a2d803cfac4ba4d2f7fbd51": {
-    "timestamp": 1763126873238,
+    "timestamp": 1763202379438,
     "avif": {
       "success": true,
-      "size": 16032
+      "size": 16032,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 203046
+      "size": 203046,
+      "quality": 90
     }
   },
   "972e0879cc71aca02000c5f1b91a3f91": {
-    "timestamp": 1763126873238,
+    "timestamp": 1763202379438,
     "avif": {
       "success": true,
-      "size": 13376
+      "size": 13376,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 247956
+      "size": 247956,
+      "quality": 90
     }
   },
   "a82669a328161a4accddd8db9a1e6b7c": {
-    "timestamp": 1763126873238,
+    "timestamp": 1763202379438,
     "avif": {
       "success": true,
-      "size": 37065
+      "size": 37065,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 168778
+      "size": 168778,
+      "quality": 90
     }
   },
   "7ec71e0a82b5594449cc5914b0225dc2": {
-    "timestamp": 1763126877206,
+    "timestamp": 1763202383308,
     "avif": {
       "success": true,
-      "size": 39191
+      "size": 39191,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 181016
+      "size": 181016,
+      "quality": 90
     }
   },
   "0bf950b4524d5806032bfc440cafe672": {
-    "timestamp": 1763126880020,
+    "timestamp": 1763202385988,
     "avif": {
       "success": true,
-      "size": 50655
+      "size": 50655,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 337410
+      "size": 337410,
+      "quality": 90
     }
   },
   "6a331068677b36b45c700aebfbaf82a5": {
-    "timestamp": 1763126882832,
+    "timestamp": 1763202388716,
     "avif": {
       "success": true,
-      "size": 13710
+      "size": 13710,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 184906
+      "size": 184906,
+      "quality": 90
     }
   },
   "2b0f00e921cfb4bcaee876c261aa387b": {
-    "timestamp": 1763126886863,
+    "timestamp": 1763202392687,
     "avif": {
       "success": true,
-      "size": 7430
+      "size": 7430,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 167228
+      "size": 167228,
+      "quality": 90
     }
   },
   "1c41a94fe1fa9ca2b2aef290ed39daa9": {
-    "timestamp": 1763126886863,
+    "timestamp": 1763202392687,
     "avif": {
       "success": true,
-      "size": 9076
+      "size": 9076,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 73904
+      "size": 73904,
+      "quality": 90
     }
   },
   "e76c60efc29b2997a87554cb816677f9": {
-    "timestamp": 1763126886863,
+    "timestamp": 1763202392687,
     "avif": {
       "success": true,
-      "size": 9203
+      "size": 9203,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 174996
+      "size": 174996,
+      "quality": 90
     }
   },
   "c86693e3fdd15b74af49cf3b8d0637f2": {
-    "timestamp": 1763126886863,
+    "timestamp": 1763202392687,
     "avif": {
       "success": true,
-      "size": 20644
+      "size": 20644,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 189768
+      "size": 189768,
+      "quality": 90
     }
   },
   "05ff7161d9fe0d460e5881134600ab38": {
-    "timestamp": 1763126888826,
+    "timestamp": 1763202394612,
     "avif": {
       "success": true,
-      "size": 13246
+      "size": 13246,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 138844
+      "size": 138844,
+      "quality": 90
     }
   },
   "82e4c2cad2749f4750fbcdeda07134ed": {
-    "timestamp": 1763126888826,
+    "timestamp": 1763202394612,
     "avif": {
       "success": true,
-      "size": 7670
+      "size": 7670,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 76562
+      "size": 76562,
+      "quality": 90
     }
   },
   "e3d13fc0c1fdd3575b85c66a793d2511": {
-    "timestamp": 1763126888826,
+    "timestamp": 1763202394612,
     "avif": {
       "success": true,
-      "size": 14185
+      "size": 14185,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 182600
+      "size": 182600,
+      "quality": 90
     }
   },
   "7745b814b36a3ded59f8659f59cc3953": {
-    "timestamp": 1763126889084,
+    "timestamp": 1763202394860,
     "avif": {
       "success": true,
-      "size": 17217
+      "size": 17217,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 212272
+      "size": 212272,
+      "quality": 90
     }
   },
   "44b31e27fbcf8e8ef4ff76a620055bbd": {
-    "timestamp": 1763126890597,
+    "timestamp": 1763202396361,
     "avif": {
       "success": true,
-      "size": 10923
+      "size": 10923,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 118618
+      "size": 118618,
+      "quality": 90
     }
   },
   "24ed57aaa1ee2bb9cd1bc68273d34662": {
-    "timestamp": 1763126891172,
+    "timestamp": 1763202396916,
     "avif": {
       "success": true,
-      "size": 13411
+      "size": 13411,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 157512
+      "size": 157512,
+      "quality": 90
     }
   },
   "ddc6eaa55c3931b95abfd35dd53def7a": {
-    "timestamp": 1763126893904,
+    "timestamp": 1763202399633,
     "avif": {
       "success": true,
-      "size": 5856
+      "size": 5856,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 73898
+      "size": 73898,
+      "quality": 90
     }
   },
   "35da3544b8f4fcdc4eec88bf5a73977c": {
-    "timestamp": 1763126893904,
+    "timestamp": 1763202399633,
     "avif": {
       "success": true,
-      "size": 5856
+      "size": 5856,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 73898
+      "size": 73898,
+      "quality": 90
     }
   },
   "bc504e806000c91796d33ed92022b63c": {
-    "timestamp": 1763126893904,
+    "timestamp": 1763202399633,
     "avif": {
       "success": true,
-      "size": 6487
+      "size": 6487,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 83800
+      "size": 83800,
+      "quality": 90
     }
   },
   "c9c39c25aa3bd74f5e816b4fa45300bf": {
-    "timestamp": 1763126893904,
+    "timestamp": 1763202399633,
     "avif": {
       "success": true,
-      "size": 5856
+      "size": 5856,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 73898
-    }
-  },
-  "7b2d9e824c75f7f663678a8d7f0b7f77": {
-    "timestamp": 1763126901230,
-    "avif": {
-      "success": true,
-      "size": 10341
-    },
-    "webp": {
-      "success": true,
-      "size": 21588
+      "size": 73898,
+      "quality": 90
     }
   },
   "c74f55d1b2fd396357ef114f766ec1f0": {
-    "timestamp": 1763126901230,
+    "timestamp": 1763202406668,
     "avif": {
       "success": true,
-      "size": 6867
+      "size": 6867,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 83558
+      "size": 83558,
+      "quality": 90
+    }
+  },
+  "7b2d9e824c75f7f663678a8d7f0b7f77": {
+    "timestamp": 1763202406668,
+    "avif": {
+      "success": true,
+      "size": 10341,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 21588,
+      "quality": 90
     }
   },
   "9a355f3f9a58c54295a93413af7e4602": {
-    "timestamp": 1763126901230,
+    "timestamp": 1763202406669,
     "avif": {
       "success": true,
-      "size": 10120
+      "size": 10120,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 41290
+      "size": 41290,
+      "quality": 90
     }
   },
   "38a3a41e4db62b649dbf8a9407a9fa52": {
-    "timestamp": 1763126902521,
+    "timestamp": 1763202407915,
     "avif": {
       "success": true,
-      "size": 9592
+      "size": 9592,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 39842
+      "size": 39842,
+      "quality": 90
     }
   },
   "fb2df69c71d261206a639562283dd3e9": {
-    "timestamp": 1763126905517,
+    "timestamp": 1763202408472,
     "avif": {
       "success": true,
-      "size": 9592
+      "size": 9592,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 39842
+      "size": 39842,
+      "quality": 90
     }
   },
   "6707eb88ed1c0739508f2864b6d4ccf7": {
-    "timestamp": 1763126914322,
+    "timestamp": 1763202421823,
     "avif": {
       "success": true,
-      "size": 17993
+      "size": 17993,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 91320
+      "size": 91320,
+      "quality": 90
     }
   },
   "984ce673832776d7a73fe3f70f1205a6": {
-    "timestamp": 1763126918130,
+    "timestamp": 1763202425579,
     "avif": {
       "success": true,
-      "size": 6058
+      "size": 6058,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 10720
+      "size": 10720,
+      "quality": 90
     }
   },
   "5923e89ac6e603846e25b6c0e69db77d": {
-    "timestamp": 1763126918130,
+    "timestamp": 1763202425579,
     "avif": {
       "success": true,
-      "size": 13528
+      "size": 13528,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 28748
+      "size": 28748,
+      "quality": 90
     }
   },
   "f3c6dee09358a0ef831a4248031a4f6f": {
-    "timestamp": 1763126918130,
+    "timestamp": 1763202425579,
     "avif": {
       "success": true,
-      "size": 26596
+      "size": 26596,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 54602
+      "size": 54602,
+      "quality": 90
     }
   },
   "7cc297c398fbe0fc9e5aed853ade831e": {
-    "timestamp": 1763126931891,
+    "timestamp": 1763202439072,
     "avif": {
       "success": true,
-      "size": 30363
+      "size": 30363,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 176960
+      "size": 176960,
+      "quality": 90
     }
   },
   "d1343759e5003db135ae7ab311fb1689": {
-    "timestamp": 1763126931891,
+    "timestamp": 1763202439105,
     "avif": {
       "success": true,
-      "size": 39471
+      "size": 39471,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 220760
-    }
-  },
-  "1eb86985ff645eed922e77670d0b4a91": {
-    "timestamp": 1763126931891,
-    "avif": {
-      "success": false,
-      "size": 0
-    },
-    "webp": {
-      "success": true,
-      "size": 66072
+      "size": 220760,
+      "quality": 90
     }
   },
   "d4fe7286951102f1048ccc24258a756f": {
-    "timestamp": 1763126933869,
+    "timestamp": 1763202440711,
     "avif": {
       "success": true,
-      "size": 14035
+      "size": 14035,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 61996
+      "size": 61996,
+      "quality": 90
+    }
+  },
+  "98cd6c86e5d91652a4d9c65a74f8af49": {
+    "timestamp": 1763202442058,
+    "avif": {
+      "success": true,
+      "size": 15627,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 23818,
+      "quality": 80
     }
   },
   "f96ba4cfc78db3d7f37a89cdb0db900a": {
-    "timestamp": 1763126935871,
+    "timestamp": 1763202442355,
     "avif": {
       "success": true,
-      "size": 13529
+      "size": 13529,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 87306
+      "size": 87306,
+      "quality": 90
     }
   },
   "cf456da4ad8ebcb117201739aba2eb77": {
-    "timestamp": 1763126936149,
+    "timestamp": 1763202442881,
     "avif": {
       "success": true,
-      "size": 27967
+      "size": 27967,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 64964
+      "size": 64964,
+      "quality": 90
     }
   },
-  "e17eda84238f813733b22f5c9608bace": {
-    "timestamp": 1763126955746,
+  "1eb86985ff645eed922e77670d0b4a91": {
+    "timestamp": 1763202535179,
     "avif": {
       "success": true,
-      "size": 34680
+      "size": 65052,
+      "quality": 37
     },
     "webp": {
       "success": true,
-      "size": 91258
+      "size": 66072,
+      "quality": 90
     }
   },
-  "4b36c5c10d3569e209f5652daddf2b69": {
-    "timestamp": 1763126955746,
+  "2fc55c1465fa03138a76c4b49ff58215": {
+    "timestamp": 1763202553615,
     "avif": {
       "success": true,
-      "size": 19120
+      "size": 33980,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 223968
+      "size": 89672,
+      "quality": 90
     }
   },
   "ed2040c82b15111723218052cf8a5822": {
-    "timestamp": 1763126955746,
+    "timestamp": 1763202553615,
     "avif": {
       "success": true,
-      "size": 18695
+      "size": 18695,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 217672
+      "size": 217672,
+      "quality": 90
+    }
+  },
+  "4b36c5c10d3569e209f5652daddf2b69": {
+    "timestamp": 1763202553615,
+    "avif": {
+      "success": true,
+      "size": 19120,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 223968,
+      "quality": 90
     }
   },
   "af1d3aa402c184e59a4f0f3f86129d8b": {
-    "timestamp": 1763126955746,
+    "timestamp": 1763202553615,
     "avif": {
       "success": true,
-      "size": 13715
+      "size": 13715,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 42410
+      "size": 42410,
+      "quality": 90
     }
   },
   "c466ff1c8008185c653b14d5585e51a1": {
-    "timestamp": 1763126967074,
+    "timestamp": 1763202564295,
     "avif": {
       "success": true,
-      "size": 17664
+      "size": 17664,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 55990
-    }
-  },
-  "5f45f3ca16a6a40e4f1108589ac432da": {
-    "timestamp": 1763126967074,
-    "avif": {
-      "success": true,
-      "size": 25411
-    },
-    "webp": {
-      "success": true,
-      "size": 614716
-    }
-  },
-  "c1e51981c6060f87258237ad3574c7bf": {
-    "timestamp": 1763126967074,
-    "avif": {
-      "success": true,
-      "size": 17218
-    },
-    "webp": {
-      "success": true,
-      "size": 254986
+      "size": 55990,
+      "quality": 90
     }
   },
   "79f37f82a65e44d6fd13f575a9cce324": {
-    "timestamp": 1763126967099,
+    "timestamp": 1763202564295,
     "avif": {
       "success": true,
-      "size": 19034
+      "size": 19034,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 222446
+      "size": 222446,
+      "quality": 90
+    }
+  },
+  "5f45f3ca16a6a40e4f1108589ac432da": {
+    "timestamp": 1763202564295,
+    "avif": {
+      "success": true,
+      "size": 25411,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 614716,
+      "quality": 90
     }
   },
   "3fdc45096674f3e679606454e31be4ca": {
-    "timestamp": 1763126969589,
+    "timestamp": 1763202565288,
     "avif": {
       "success": true,
-      "size": 15139
+      "size": 15139,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 735412
+      "size": 735412,
+      "quality": 90
+    }
+  },
+  "c1e51981c6060f87258237ad3574c7bf": {
+    "timestamp": 1763202566315,
+    "avif": {
+      "success": true,
+      "size": 17218,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 254986,
+      "quality": 90
     }
   },
   "b59263c598d8051e2cf53655a41dcb05": {
-    "timestamp": 1763126969970,
+    "timestamp": 1763202567263,
     "avif": {
       "success": true,
-      "size": 17192
+      "size": 17192,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 255492
-    }
-  },
-  "453f6b5b06919052d369a37875f5378e": {
-    "timestamp": 1763126974515,
-    "avif": {
-      "success": true,
-      "size": 15100
-    },
-    "webp": {
-      "success": true,
-      "size": 733876
+      "size": 255492,
+      "quality": 90
     }
   },
   "8485c9cb26ef4b05c56f24bce830f7d9": {
-    "timestamp": 1763126986510,
+    "timestamp": 1763202572559,
     "avif": {
       "success": true,
-      "size": 15295
+      "size": 15295,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 733050
+      "size": 733050,
+      "quality": 90
     }
   },
-  "04b7d125d4f0d3c7cff9a893d0171098": {
-    "timestamp": 1763126986510,
+  "453f6b5b06919052d369a37875f5378e": {
+    "timestamp": 1763202583247,
     "avif": {
       "success": true,
-      "size": 17214
+      "size": 15100,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 255506
+      "size": 733876,
+      "quality": 90
     }
   },
   "9b3c60a1864a4890b911e1604715223e": {
-    "timestamp": 1763126986530,
+    "timestamp": 1763202583248,
     "avif": {
       "success": true,
-      "size": 17181
+      "size": 17181,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 255150
+      "size": 255150,
+      "quality": 90
     }
   },
-  "5f2c4af9ccff5c8ed7d6a5d5c8580526": {
-    "timestamp": 1763126986587,
+  "04b7d125d4f0d3c7cff9a893d0171098": {
+    "timestamp": 1763202584974,
     "avif": {
       "success": true,
-      "size": 16276
+      "size": 17214,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 265722
+      "size": 255506,
+      "quality": 90
     }
   },
   "fb0d585a63706250ed737865a0a8c227": {
-    "timestamp": 1763126988568,
+    "timestamp": 1763202586047,
     "avif": {
       "success": true,
-      "size": 17157
+      "size": 17157,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 255010
+      "size": 255010,
+      "quality": 90
+    }
+  },
+  "5f2c4af9ccff5c8ed7d6a5d5c8580526": {
+    "timestamp": 1763202587545,
+    "avif": {
+      "success": true,
+      "size": 16276,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 265722,
+      "quality": 90
+    }
+  },
+  "2bb1da6052a32f8f96da2ebc136d5114": {
+    "timestamp": 1763202604980,
+    "avif": {
+      "success": true,
+      "size": 15392,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 549938,
+      "quality": 79
+    }
+  },
+  "4b4379fba4ae679d4bb428d0b7e1b6c9": {
+    "timestamp": 1763202605155,
+    "avif": {
+      "success": true,
+      "size": 15455,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 549060,
+      "quality": 79
+    }
+  },
+  "9dad57e1a7f126d4b02769d6acddac9b": {
+    "timestamp": 1763202614330,
+    "avif": {
+      "success": true,
+      "size": 30209,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 276698,
+      "quality": 79
+    }
+  },
+  "138f33a64fb5f3bd7bce1b804bc7853f": {
+    "timestamp": 1763202614434,
+    "avif": {
+      "success": true,
+      "size": 30363,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 277372,
+      "quality": 79
     }
   },
   "4bc12bbbef0744606f1e3148fd132f90": {
-    "timestamp": 1763127002903,
+    "timestamp": 1763202629067,
     "avif": {
       "success": true,
-      "size": 15952
+      "size": 15952,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 192944
+      "size": 192944,
+      "quality": 90
     }
   },
   "260442cfe6131ca99af595a11575ac77": {
-    "timestamp": 1763127002903,
+    "timestamp": 1763202629067,
     "avif": {
       "success": true,
-      "size": 17339
+      "size": 17339,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 255026
-    }
-  },
-  "e697ce92c0b5ab015f7f71b7438e0fce": {
-    "timestamp": 1763127004026,
-    "avif": {
-      "success": true,
-      "size": 15846
-    },
-    "webp": {
-      "success": true,
-      "size": 192964
+      "size": 255026,
+      "quality": 90
     }
   },
   "2c80ec3e6c778ba46ead229ca10c7c01": {
-    "timestamp": 1763127004474,
+    "timestamp": 1763202629963,
     "avif": {
       "success": true,
-      "size": 21136
+      "size": 21136,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 225740
+      "size": 225740,
+      "quality": 90
+    }
+  },
+  "e697ce92c0b5ab015f7f71b7438e0fce": {
+    "timestamp": 1763202630322,
+    "avif": {
+      "success": true,
+      "size": 15846,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 192964,
+      "quality": 90
     }
   },
   "c2f2dc860399b395a7a925216dceb407": {
-    "timestamp": 1763127014454,
+    "timestamp": 1763202639966,
     "avif": {
       "success": true,
-      "size": 17316
+      "size": 17316,
+      "quality": 50
     },
     "webp": {
       "success": true,
-      "size": 239424
+      "size": 239424,
+      "quality": 90
+    }
+  },
+  "bf1103fdacda4ceb4428bf57f2a08dda": {
+    "timestamp": 1763202645182,
+    "avif": {
+      "success": true,
+      "size": 10954,
+      "quality": 50
+    },
+    "webp": {
+      "success": true,
+      "size": 311166,
+      "quality": 79
     }
   }
 }

@@ -29,6 +29,7 @@ const DEFAULT_JPEG_WEBP_QUALITY = 90;
 const AVIF_MAX_EFFORT = 9;
 const WEBP_MAX_EFFORT = 6;
 const BATCH_SIZE = 10;
+const PAD_START = 4;
 
 // Directories to scan
 const SCAN_DIRS = ['common', 'free', 'dreamer', 'passion'];
@@ -57,6 +58,7 @@ class ImageConverter {
             avifSkippedLargerThanWebp: 0,
             cacheHits: 0,
             errors: 0,
+            qualityReduced: [],
         };
 
         this.imageFiles = [];
@@ -228,20 +230,20 @@ class ImageConverter {
         // Convert to WEBP first
         const webpResult = await this.convertToFormat(filePath, dirName, baseName, 'webp', type, index + 2, total);
 
-        // Convert to AVIF only if WEBP was successful
-        if (webpResult && webpResult.success) {
-            const avifResult = await this.convertToFormat(filePath, dirName, baseName, 'avif', type, index + 1, total, webpResult.size);
+        // Always convert to AVIF from original, regardless of WEBP result
+        // Pass WEBP size for comparison only if WEBP was successful
+        const webpSizeForComparison = (webpResult && webpResult.success) ? webpResult.size : null;
+        const avifResult = await this.convertToFormat(filePath, dirName, baseName, 'avif', type, index + 1, total, webpSizeForComparison);
 
-            // Mark as processed
-            await this.markProcessed(filePath, {
-                avif: avifResult,
-                webp: webpResult,
-            });
-        }
+        // Mark as processed
+        await this.markProcessed(filePath, {
+            avif: avifResult,
+            webp: webpResult,
+        });
     }
 
     /**
-     * Convert image to specific format
+     * Convert image to specific format with iterative quality reduction
      */
     async convertToFormat(inputPath, dirName, baseName, format, type, index, total, webpSize = null) {
         const outputPath = path.join(dirName, `${baseName}.${format}`);
@@ -252,7 +254,9 @@ class ImageConverter {
             if (this.dryRun) {
                 console.log(`  ${relativePath} → ${baseName}.${format} (exists - would skip)`);
             } else {
-                console.log(`[${index}/${total}] ${relativePath} → ${baseName}.${format} (skipped - exists)`);
+                const indexStr = String(index).padStart(PAD_START);
+                const totalStr = String(total).padStart(PAD_START);
+                console.log(`⊘ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (exists)`);
             }
             this.stats.skipped++;
             return { success: false, skipped: true };
@@ -269,74 +273,138 @@ class ImageConverter {
             return { success: true, size: 0 };
         }
 
-        // Perform conversion
-        try {
-            const converter = sharp(inputPath);
-
-            if (format === 'avif') {
-                if (type === 'png') {
-                    await converter.avif({
-                        quality: this.pngAvifQuality,
-                        effort: AVIF_MAX_EFFORT,
-                    }).toFile(outputPath);
-                } else {
-                    await converter.avif({
-                        quality: this.jpegAvifQuality,
-                        effort: AVIF_MAX_EFFORT,
-                    }).toFile(outputPath);
-                }
-            } else if (format === 'webp') {
-                if (type === 'png') {
-                    await converter.webp({
-                        quality: this.pngWebpQuality,
-                        nearLossless: true,
-                        effort: WEBP_MAX_EFFORT,
-                    }).toFile(outputPath);
-                } else {
-                    await converter.webp({
-                        quality: this.jpegWebpQuality,
-                        effort: WEBP_MAX_EFFORT,
-                    }).toFile(outputPath);
-                }
-            }
-
-            // Check if converted file is smaller than original
-            const inputStats = await fs.stat(inputPath);
-            const outputStats = await fs.stat(outputPath);
-
-            if (outputStats.size >= inputStats.size) {
-                // Converted file is larger or equal to original - delete it
-                await fs.unlink(outputPath);
-                console.log(`[${index}/${total}] ${relativePath} → ${baseName}.${format} (skipped - larger than original)`);
-                this.stats.skippedLarger++;
-                return { success: false, size: 0 };
-            }
-
-            // For AVIF, also check if it's smaller than WEBP
-            if (format === 'avif' && webpSize !== null && outputStats.size >= webpSize) {
-                // AVIF is larger than WEBP - delete it
-                await fs.unlink(outputPath);
-                console.log(`[${index}/${total}] ${relativePath} → ${baseName}.${format} (skipped - larger than WEBP)`);
-                this.stats.avifSkippedLargerThanWebp++;
-                return { success: false, size: 0 };
-            }
-
-            // Converted file is smaller - keep it
-            if (format === 'avif') {
-                this.stats.avifCreated++;
-            } else if (format === 'webp') {
-                this.stats.webpCreated++;
-            }
-            const savedBytes = inputStats.size - outputStats.size;
-            const savedPercent = ((savedBytes / inputStats.size) * 100).toFixed(1);
-            console.log(`[${index}/${total}] ${relativePath} → ${baseName}.${format} ✓ (saved ${savedPercent}%)`);
-
-            return { success: true, size: outputStats.size };
-        } catch (error) {
-            console.error(`[${index}/${total}] ${relativePath} → ${baseName}.${format} ✗ (${error.message})`);
-            this.stats.errors++;
-            return { success: false, size: 0, error: error.message };
+        // Get initial quality based on format and type
+        let currentQuality;
+        if (type === 'png') {
+            currentQuality = format === 'avif' ? this.pngAvifQuality : this.pngWebpQuality;
+        } else {
+            currentQuality = format === 'avif' ? this.jpegAvifQuality : this.jpegWebpQuality;
         }
+
+        const initialQuality = currentQuality;
+        const inputStats = await fs.stat(inputPath);
+        const indexStr = String(index).padStart(PAD_START);
+        const totalStr = String(total).padStart(PAD_START);
+
+        // Iterative conversion with quality reduction
+        let attempt = 0;
+        const maxAttempts = currentQuality; // Can reduce quality down to 1
+
+        while (attempt < maxAttempts) {
+            attempt++;
+
+            try {
+                const converter = sharp(inputPath);
+
+                if (format === 'avif') {
+                    await converter.avif({
+                        quality: currentQuality,
+                        effort: AVIF_MAX_EFFORT,
+                    }).toFile(outputPath);
+                } else if (format === 'webp') {
+                    if (type === 'png') {
+                        await converter.webp({
+                            quality: currentQuality,
+                            nearLossless: true,
+                            effort: WEBP_MAX_EFFORT,
+                        }).toFile(outputPath);
+                    } else {
+                        await converter.webp({
+                            quality: currentQuality,
+                            effort: WEBP_MAX_EFFORT,
+                        }).toFile(outputPath);
+                    }
+                }
+
+                const outputStats = await fs.stat(outputPath);
+
+                // Check for zero-length file
+                if (outputStats.size === 0) {
+                    await fs.unlink(outputPath);
+                    console.error(`✗ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (zero-length file)`);
+                    this.stats.errors++;
+                    return { success: false, size: 0, error: 'Zero-length file generated' };
+                }
+
+                // Determine target size based on format
+                let targetSize;
+                let targetDescription;
+
+                if (format === 'avif' && webpSize !== null) {
+                    // AVIF must be smaller than WEBP
+                    targetSize = webpSize;
+                    targetDescription = 'WEBP';
+                } else {
+                    // Must be smaller than original
+                    targetSize = inputStats.size;
+                    targetDescription = 'original';
+                }
+
+                // Check if output is acceptable
+                if (outputStats.size < targetSize) {
+                    // Success! File is smaller than target
+                    if (format === 'avif') {
+                        this.stats.avifCreated++;
+                    } else if (format === 'webp') {
+                        this.stats.webpCreated++;
+                    }
+
+                    const savedBytes = inputStats.size - outputStats.size;
+                    const savedPercent = ((savedBytes / inputStats.size) * 100).toFixed(2);
+                    const percentStr = savedPercent.padStart(5);
+
+                    let qualityInfo = '';
+                    if (currentQuality !== initialQuality) {
+                        qualityInfo = ` (quality reduced: ${initialQuality} → ${currentQuality})`;
+                        this.stats.qualityReduced.push({
+                            file: relativePath,
+                            format: format,
+                            initialQuality: initialQuality,
+                            finalQuality: currentQuality,
+                            attempts: attempt,
+                            originalSize: inputStats.size,
+                            finalSize: outputStats.size,
+                            targetSize: targetSize,
+                            targetDescription: targetDescription,
+                        });
+                    }
+
+                    console.log(`✓ [${indexStr} / ${totalStr}] (-${percentStr}%) ${relativePath} → ${baseName}.${format}${qualityInfo}`);
+                    return { success: true, size: outputStats.size, quality: currentQuality };
+                }
+
+                // Output is too large, try reducing quality
+                if (currentQuality > 1) {
+                    // Log the failed attempt
+                    console.log(`  [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} quality ${currentQuality}: ${outputStats.size} >= ${targetSize} (${targetDescription}), trying quality ${currentQuality - 1}...`);
+                    await fs.unlink(outputPath);
+                    currentQuality--;
+                    // Continue loop to try again with lower quality
+                } else {
+                    // Already at minimum quality, give up
+                    await fs.unlink(outputPath);
+
+                    if (format === 'avif' && webpSize !== null) {
+                        console.log(`⊘ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (larger than WEBP even at quality 1: ${outputStats.size} >= ${webpSize})`);
+                        this.stats.avifSkippedLargerThanWebp++;
+                    } else {
+                        console.log(`⊘ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (larger than ${targetDescription} even at quality 1: ${outputStats.size} >= ${targetSize})`);
+                        this.stats.skippedLarger++;
+                    }
+
+                    return { success: false, size: 0 };
+                }
+            } catch (error) {
+                console.error(`✗ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (${error.message})`);
+                this.stats.errors++;
+                return { success: false, size: 0, error: error.message };
+            }
+        }
+
+        // Should not reach here, but handle it anyway
+        console.log(`⊘ [${indexStr} / ${totalStr}] ${relativePath} → ${baseName}.${format} (max attempts reached)`);
+        this.stats.skippedLarger++;
+        return { success: false, size: 0 };
     }
 
     /**
@@ -389,6 +457,34 @@ class ImageConverter {
             }
             if (this.stats.errors > 0) {
                 console.log(`Errors: ${this.stats.errors}`);
+            }
+
+            // Report files with reduced quality
+            if (this.stats.qualityReduced.length > 0) {
+                console.log();
+                console.log('Quality Reduced Files (Please Verify Visually)');
+                console.log('='.repeat(47));
+                console.log();
+                console.log('The following files required quality reduction to achieve smaller file size:');
+                console.log();
+
+                for (const item of this.stats.qualityReduced) {
+                    const savedBytes = item.originalSize - item.finalSize;
+                    const savedPercent = ((savedBytes / item.originalSize) * 100).toFixed(2);
+
+                    console.log(`File: ${item.file}`);
+                    console.log(`  Format: ${item.format.toUpperCase()}`);
+                    console.log(`  Quality: ${item.initialQuality} → ${item.finalQuality} (reduced by ${item.initialQuality - item.finalQuality})`);
+                    console.log(`  Attempts: ${item.attempts}`);
+                    console.log(`  Original size: ${item.originalSize} bytes`);
+                    console.log(`  Target (${item.targetDescription}): ${item.targetSize} bytes`);
+                    console.log(`  Final size: ${item.finalSize} bytes (-${savedPercent}%)`);
+                    console.log();
+                }
+
+                console.log(`Total files with reduced quality: ${this.stats.qualityReduced.length}`);
+                console.log();
+                console.log('⚠️  IMPORTANT: Please visually inspect these files to ensure quality is acceptable.');
             }
         }
     }
