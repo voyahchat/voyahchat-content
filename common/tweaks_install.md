@@ -18,11 +18,11 @@
 
 # Windows
 
-1. Скачать [VoyahTweaks_2.5.2.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.5.2.zip)
+1. Скачать [VoyahTweaks_2.5.3.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.5.3.zip)
 
-2. Разархивировать `VoyahTweaks_2.5.2.zip` в корень диска `C:`
+2. Разархивировать `VoyahTweaks_2.5.3.zip` в корень диска `C:`
 
-3. Зайти в директорию `C:\VoyahTweaks_2.5.2`
+3. Зайти в директорию `C:\VoyahTweaks_2.5.3`
 
 4. Запустить `install_Win.bat`
 
@@ -33,17 +33,17 @@
 ```
 cd ~/Downloads
 ```
-  * Скачать VoyahTweaks_2.5.2.zip
+  * Скачать VoyahTweaks_2.5.3.zip
 ```
-curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.5.2.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.5.3.zip
 ```
   * Разархивировать
 ```
-unzip -o VoyahTweaks_2.5.2.zip
+unzip -o VoyahTweaks_2.5.3.zip
 ```
-  * Перейти в директорию `VoyahTweaks_2.5.2`
+  * Перейти в директорию `VoyahTweaks_2.5.3`
 ```
-cd VoyahTweaks_2.5.2
+cd VoyahTweaks_2.5.3
 ```
   * Выполнить скрипт установки
 ```
