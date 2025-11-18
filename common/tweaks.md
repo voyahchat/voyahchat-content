@@ -15,5 +15,6 @@ VoyahTweaks — это программа для Android, которая уст
 
 * [Установка](tweaks_install.md)
 * [Установка на NXP (старый чип на дорест33 до 2023)](tweaks_install-nxp.md)
+* [Скрипт быстрой настройки](tweaks_settings-script.md)
 * [Платная установка/настройка VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
 
