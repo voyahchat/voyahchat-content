@@ -13,12 +13,12 @@
 # ДВС
 Мотор `DAM15NTDE`.
 
-Замена масла/фильтров/прокладки каждые `10000` пробега ДВС (REV ODO) или `1` год (первая замена на `5000` или `6` месяцев).
+Замена масла/фильтров/прокладки каждые `10000` пробега ДВС (REV ODO) или `1` год (первая замена на `5000` или `6` месяцев).
 
 ## Масло ДВС
 Полностью синтетическое масло `0W-20`, `API SN Plus` или выше. Слив через пробку.
 
-`4.5` литра.
+`4` литра при сервисной замене (`4.5` при полной замене)
 
 * `H41201005` артикул Voyah (Castrol)
 * `H41201006` артикул Voyah (Mobil)
@@ -28,6 +28,7 @@
 
 ## Фильтр воздушный ДВС
 * `110901002` артикул Voyah
+* `AF304` артикул RAF Filter
 
 ## Прокладка под сливной ДВС
 * `100908001` артикул Voyah
@@ -57,6 +58,8 @@
 * `810004001//GB9976C BIG` артикул Voyah
 * `H97A8100008AA` артикул Dongfeng
 * `MT6023C` артикул Manbo
+* `LAK 1282` артикул Mahle
+* `EKR7326` артикул MecaFilter
 
 # Тормозная жидкость
 Замена на `20000` пробега или `2` года.
@@ -70,8 +73,9 @@
 # Масло мотор-редуктора
 Замена на `30000` пробега или `3` года.
 
-`Castrol 805C EV`
-`GL-4 75W90` — спецификация
+* `Castrol BOT 805 C EV` (75W API GL-4)
+* `Febi 21829` (SAE 75W GL-4)
+* `Liqui Moly 20842` (75W Top Tec MTF 5100)
 
 По `0.85±0.05` литра в каждый редуктор.
 
@@ -86,15 +90,21 @@
 
 * `H41901000` артикул Voyah
 * `H41901007` артикул Voyah
+* [Totachi 43701](https://www.totachi.ru/catalog/passenger/antifreeze_coolants/totachi-extended-life-coolant-40-c/)
+* [Totachi 47701](https://www.totachi.ru/catalog/passenger/antifreeze_coolants/totachi-extended-life-coolant-green-40-c/)
+* [Totachi 41701](https://www.totachi.ru/catalog/moto/antifreeze_coolants1/totachi-super-long-life-coolant-green-50-c1/)
 
 # Охлаждающая жидкость ВВБ
 
-`Lec-II`, жёлтая, стандарт `GB 29743-2013`, повторяет европейский `ASTM D3306`
+`Lec-II`, жёлтая (или зеленая флуоресцентная для простоты поиска протечек), стандарт `GB 29743-2013`, повторяет европейский `ASTM D3306`
 
 `16.5±0.5` литров
 
 * `H41901000` артикул Voyah
 * `H41901007` артикул Voyah
+* [Totachi 43701](https://www.totachi.ru/catalog/passenger/antifreeze_coolants/totachi-extended-life-coolant-40-c/)
+* [Totachi 47701](https://www.totachi.ru/catalog/passenger/antifreeze_coolants/totachi-extended-life-coolant-green-40-c/)
+* [Totachi 41701](https://www.totachi.ru/catalog/moto/antifreeze_coolants1/totachi-super-long-life-coolant-green-50-c1/)
 
 # Хладагент кондиционера
 Замена на `40000` пробега или `4` года.
