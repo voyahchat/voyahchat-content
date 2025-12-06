@@ -12,6 +12,7 @@
 * [Настройки](tweaks_settings.md)
 * [Голосовые команды](tweaks_voice.md)
 * [Изменения по версиям](tweaks_changelog.md)
+* [Сравнение VoyahTweaks 2.5.3 и CunBA 2.5.8](enhance.md)
 
 # Установка
 

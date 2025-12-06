@@ -1,6 +1,7 @@
 # Настройка
 
 * [Платная установка/настройка CunBA/VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
+* [Сравнение VoyahTweaks 2.5.3 и CunBA 2.5.8](enhance.md)
 * [Настройка приложений машины](software_setup.md)
 * [Настройка приложений машины NXP](software_setup-nxp.md)
 * [Изменение имени машины](software_device-name.md)
