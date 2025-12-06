@@ -6,7 +6,7 @@ DNS можно сменить на [one.one.one.one](#one) или [Яндекс]
 
 1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
+2. Подключить [кабель](cable.md) в порт USB Type-A внизу между водителем и пассажиром. Если в машине два USB Type-A — в левый, ближе к водителю
 
 3. Запустить скрипт на [Windows](#windows-1) или [Mac](#mac-1)
 
@@ -46,7 +46,7 @@ sh ./voyahchat-dns-one.sh
 
 1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
+2. Подключить [кабель](cable.md) в порт USB Type-A внизу между водителем и пассажиром. Если в машине два USB Type-A — в левый, ближе к водителю
 
 3. Запустить скрипт на [Windows](#windows) или [Mac](#mac)
 
@@ -86,7 +86,7 @@ sh ./voyahchat-dns-yandex.sh
 
 1. [Включить USB Debugging](usb-debugging.md)
 
-2. Подключить [USB Type-A — Type-A кабель](cable.md) (на доресте в порт ближе к водителю)
+2. Подключить [кабель](cable.md) в порт USB Type-A внизу между водителем и пассажиром. Если в машине два USB Type-A — в левый, ближе к водителю
 
 3. Запустить скрипт на [Windows](#windows-2) или [Mac](#mac-2)
 
