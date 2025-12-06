@@ -18,6 +18,10 @@
 * [Установка NXP](tweaks_install-nxp.md)
 * [Платная установка/настройка VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
 
+# CunBA
+
+* [Установка](cunba.md)
+
 # Установка приложений с компьютера
 ## CarPlay
 
