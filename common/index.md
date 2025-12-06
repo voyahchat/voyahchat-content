@@ -1,14 +1,3 @@
-# Lantu
-
-* [Учётная запись Lantu](account.md)
-* [Приложение Lantu](app.md)
-
-# Прошивка
-
-* [Прошивка](firmware.md)
-  * [Платное обновление](firmware_update_paid.md)
-  * [Самостоятельное обновление](firmware_update_manual.md)
-
 # Настройка
 
 * [Платная установка/настройка CunBA/VoyahTweaks и приложений](https://t.me/voyahchat/133592/625961)
@@ -63,6 +52,17 @@
 * [Эфир ТВ](software_efirtv.md)
 * [RuTube](software_rutube.md)
 * [YouTube](software_youtube.md)
+
+# Прошивка
+
+* [Прошивка](firmware.md)
+  * [Платное обновление](firmware_update_paid.md)
+  * [Самостоятельное обновление](firmware_update_manual.md)
+
+# Lantu
+
+* [Учётная запись Lantu](account.md)
+* [Приложение Lantu](app.md)
 
 # Разное
 
