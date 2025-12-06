@@ -13,7 +13,7 @@
 * [Прошивка](firmware.md)
 * [Обслуживание](maintenance.md)
 
-## Руководства пользователя
+# Руководства пользователя
   * [Гибрид, модель 2024 года («рест»)](https://github.com/voyahchat/voyahchat-docs/raw/refs/heads/main/voyah-free-evr-2024-user-manual-rus.pdf "Руководство пользователя, гибрид, модель 2024 года («рест»)"), 68 страниц
   * [Гибрид, модель 2024 года («рест»), альтернативное](https://github.com/voyahchat/voyahchat-docs/raw/refs/heads/main/voyah-free-evr-2024-user-manual-rus-alt.pdf "Руководство пользователя, гибрид, модель 2024 года («рест»), альтернативное"), 512 страниц
   * [Гибрид, модель 2023 года («дорест», «гибрид 39»)](https://github.com/voyahchat/voyahchat-docs/raw/refs/heads/main/voyah-free-evr-2023-user-manual-rus.pdf "Руководство пользователя, гибрид, модель 2023 года («дорест», «гибрид 39»)"), 172 страницы
