@@ -31,13 +31,16 @@
 
 # Установка приложений с компьютера
 ## CarPlay
+
 * [AutoKit](software_autokit.md)
 
 ## Магазины приложений
+
 * [RuStore](software_rustore.md)
 * [APKPure](software_apkpure.md)
 
 ## Приложения
+
 * [Клавиатура](software_keyboard.md)
 * [Yandex Music](software_yandex-music.md)
 * [Yandex Navigator](software_yandex-navi.md)
@@ -50,6 +53,7 @@
 * [TelegramX](software_telegram.md) — с возможностью установки приложений
 
 ## Приложения для NXP
+
 * [Клавиатура](software_keyboard.md#simple)
 * [Yandex Music NXP](software_yandex-music-nxp.md)
 * [Yandex Navigator NXP](software_yandex-navi-nxp.md)
