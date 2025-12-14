@@ -39,19 +39,19 @@ CunBA поддерживает только [Яндекс Клавиатуру](
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-keyboard-simple-mac.zip
+    - Скачать voyahchat-keyboard-simple-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-simple-mac.zip
  ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-keyboard-simple-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-keyboard-simple.sh
 ```
@@ -91,19 +91,19 @@ sh ./voyahchat-keyboard-simple.sh
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-keyboard-yandex-mac.zip
+    - Скачать voyahchat-keyboard-yandex-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-yandex-mac.zip
  ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-keyboard-yandex-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-keyboard-yandex.sh
 ```

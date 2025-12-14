@@ -29,23 +29,23 @@
 # Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать VoyahTweaks_2.5.3.zip
+    - Скачать VoyahTweaks_2.5.3.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.5.3.zip
 ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o VoyahTweaks_2.5.3.zip
 ```
-  * Перейти в директорию `VoyahTweaks_2.5.3`
+    - Перейти в директорию `VoyahTweaks_2.5.3`
 ```
 cd VoyahTweaks_2.5.3
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./install_Mac.sh
 ```

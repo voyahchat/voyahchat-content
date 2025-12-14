@@ -25,19 +25,19 @@ DNS можно сменить на [one.one.one.one](#one) или [Яндекс]
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-dns-one-mac.zip
+    - Скачать voyahchat-dns-one-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-dns-one-mac.zip
 ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-dns-one-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-dns-one.sh
 ```
@@ -65,19 +65,19 @@ sh ./voyahchat-dns-one.sh
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-dns-yandex-mac.zip
+    - Скачать voyahchat-dns-yandex-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-dns-yandex-mac.zip
 ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-dns-yandex-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-dns-yandex.sh
 ```
@@ -105,19 +105,19 @@ sh ./voyahchat-dns-yandex.sh
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-dns-default-mac.zip
+    - Скачать voyahchat-dns-default-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-dns-default-mac.zip
 ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-dns-default-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-dns-default.sh
 ```

@@ -21,19 +21,19 @@
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-voyahtweaks-settings-mac.zip
+    - Скачать voyahchat-voyahtweaks-settings-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-voyahtweaks-settings-mac.zip
 ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-voyahtweaks-settings-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-voyahtweaks-settings.sh
 ```

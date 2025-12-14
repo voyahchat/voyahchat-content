@@ -6,8 +6,8 @@
 # Бесключевой доступ
 
 За бесключевой доступ отвечают две настройки:
-  - Unlock when approaching (Разблокировать при подходе)
-  - Lock when leaving (Заблокировать при уходе)
+    - Unlock when approaching (Разблокировать при подходе)
+    - Lock when leaving (Заблокировать при уходе)
 
 ![Auto -> Door & Win -> Lock / Unlock](keys-lock-unlock.png "Auto -> Door & Win -> Lock / Unlock")
 

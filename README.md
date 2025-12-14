@@ -49,34 +49,34 @@ node convert-images.js --png-avif-quality 85 --png-webp-quality 90
 
 ### Conversion Settings
 
-- **PNG → AVIF**: Quality 50 with maximum compression effort
-- **PNG → WEBP**: Quality 90 with maximum compression effort (nearLossless)
-- **JPEG → AVIF**: Quality 50 with maximum compression effort
-- **JPEG → WEBP**: Quality 90 with maximum compression effort
-- **Original files**: Always preserved alongside generated formats
-- **Existing files**: Skipped by default (use `--force` to reconvert)
-- **Size optimization**:
-  - Converted files larger than originals are automatically discarded
-  - AVIF files larger than WEBP are automatically discarded (WEBP is kept)
-- **Caching**: Processed files are cached to avoid reprocessing (stored in `.conversion-cache.json`)
+    - **PNG → AVIF**: Quality 50 with maximum compression effort
+    - **PNG → WEBP**: Quality 90 with maximum compression effort (nearLossless)
+    - **JPEG → AVIF**: Quality 50 with maximum compression effort
+    - **JPEG → WEBP**: Quality 90 with maximum compression effort
+    - **Original files**: Always preserved alongside generated formats
+    - **Existing files**: Skipped by default (use `--force` to reconvert)
+    - **Size optimization**:
+    - Converted files larger than originals are automatically discarded
+    - AVIF files larger than WEBP are automatically discarded (WEBP is kept)
+    - **Caching**: Processed files are cached to avoid reprocessing (stored in `.conversion-cache.json`)
 
 ### Technical Details
 
-- AVIF compression effort: 9 (maximum, 0-9 scale)
-- WEBP compression effort: 6 (maximum, 0-6 scale) with nearLossless for PNG
-- Default quality settings:
-  - PNG → AVIF: 50 (configurable via `--png-avif-quality`)
-  - PNG → WEBP: 90 (configurable via `--png-webp-quality`)
-  - JPEG → AVIF: 50 (configurable via `--jpeg-avif-quality`)
-  - JPEG → WEBP: 90 (configurable via `--jpeg-webp-quality`)
-- Batch processing: 10 images at a time to manage memory usage
-- Conversion order: WEBP first, then AVIF (only if AVIF is smaller than WEBP)
-- Cache file: `convert-images.json` (automatically managed, add to `.gitignore`)
+    - AVIF compression effort: 9 (maximum, 0-9 scale)
+    - WEBP compression effort: 6 (maximum, 0-6 scale) with nearLossless for PNG
+    - Default quality settings:
+    - PNG → AVIF: 50 (configurable via `--png-avif-quality`)
+    - PNG → WEBP: 90 (configurable via `--png-webp-quality`)
+    - JPEG → AVIF: 50 (configurable via `--jpeg-avif-quality`)
+    - JPEG → WEBP: 90 (configurable via `--jpeg-webp-quality`)
+    - Batch processing: 10 images at a time to manage memory usage
+    - Conversion order: WEBP first, then AVIF (only if AVIF is smaller than WEBP)
+    - Cache file: `convert-images.json` (automatically managed, add to `.gitignore`)
 
 ### Requirements
 
-- Node.js 18 or higher
-- Sharp library (installed automatically via npm install)
+    - Node.js 18 or higher
+    - Sharp library (installed automatically via npm install)
 
 ### Command Line Options
 

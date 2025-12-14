@@ -23,30 +23,30 @@ AutoKit может быть использован без CunBA или VoyahTwea
 4. Запустить пакетный файл Windows `voyahchat-autokit.bat`
 
 5. Если AutoKit неправильно вписывается в экран (установлен без использования CunBA или VoyahTweaks, или используется версия VoyahTweaks меньше 2.2.2):
-  * удалить файл `config.xml` в директории `voyahchat-autokit`
-  * переменовать файл `config-clean.xml` в `config.xml`
-  * запустить ещё раз пакетный файл Windows `voyahchat-autokit.bat`
+    - удалить файл `config.xml` в директории `voyahchat-autokit`
+    - переменовать файл `config-clean.xml` в `config.xml`
+    - запустить ещё раз пакетный файл Windows `voyahchat-autokit.bat`
 
 # Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-  * Перейти в директорию `Downloads`
+    - Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-  * Скачать voyahchat-autokit-mac.zip
+    - Скачать voyahchat-autokit-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-autokit-mac.zip
  ```
-  * Разархивировать
+    - Разархивировать
 ```
 unzip -o voyahchat-autokit-mac.zip
 ```
-  * Выполнить скрипт установки
+    - Выполнить скрипт установки
 ```
 sh ./voyahchat-autokit.sh
 ```
-  * Если AutoKit неправильно вписывается в экран (установлен без использования CunBA или VoyahTweaks, или используется версия VoyahTweaks меньше 2.2.2), то выполнить
+    - Если AutoKit неправильно вписывается в экран (установлен без использования CunBA или VoyahTweaks, или используется версия VoyahTweaks меньше 2.2.2), то выполнить
 ```
 mv config-clean.xml config.xml
 ```
