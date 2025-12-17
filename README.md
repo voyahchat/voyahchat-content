@@ -75,8 +75,8 @@ node convert-images.js --png-avif-quality 85 --png-webp-quality 90
 
 ### Requirements
 
-    - Node.js 18 or higher
-    - Sharp library (installed automatically via npm install)
+- Node.js 18 or higher
+- Sharp library (installed automatically via npm install)
 
 ### Command Line Options
 

@@ -35,7 +35,7 @@ curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyah
 ```
 unzip -o voyahchat-device-name-mac.zip
 ```
-    - Имя машины в скрипте выставлено в `FREE`, если хотите его изменить — откройте `voyahchat-device-name.sh` на редактирование и замените
+- Имя машины в скрипте выставлено в `FREE`, если хотите его изменить — откройте `voyahchat-device-name.sh` на редактирование и замените
 - Выполнить скрипт установки
 ```
 sh ./voyahchat-device-name.sh
