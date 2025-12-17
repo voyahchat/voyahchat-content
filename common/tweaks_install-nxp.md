@@ -39,23 +39,23 @@ NXP это старый чип на дорест33, прежде чем начи
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-    - Перейти в директорию `Downloads`
+- Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-    - Скачать voyahtweaks-2.1.2.zip
+- Скачать voyahtweaks-2.1.2.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahtweaks-2.1.2.zip
 ```
-    - Разархивировать
+- Разархивировать
 ```
 unzip -o voyahtweaks-2.1.2.zip
 ```
-    - Перейти в директорию `VoyahTweaks`
+- Перейти в директорию `VoyahTweaks`
 ```
 cd VoyahTweaks
 ```
-    - Выполнить скрипт установки
+- Выполнить скрипт установки
 ```
 sh ./install.sh
 ```
@@ -75,23 +75,23 @@ sh ./install.sh
 ## Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-    - Перейти в директорию `Downloads`
+- Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-    - Скачать voyahtweaks-2.2.4.zip
+- Скачать voyahtweaks-2.2.4.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahtweaks-2.2.4.zip
 ```
-    - Разархивировать
+- Разархивировать
 ```
 unzip -o voyahtweaks-2.2.4.zip
 ```
-    - Перейти в директорию `VoyahTweaks`
+- Перейти в директорию `VoyahTweaks`
 ```
 cd VoyahTweaks
 ```
-    - Выполнить скрипт установки
+- Выполнить скрипт установки
 ```
 sh ./install.sh
 ```

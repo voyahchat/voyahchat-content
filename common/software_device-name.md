@@ -23,20 +23,20 @@
 # Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-    - Перейти в директорию `Downloads`
+- Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-    - Скачать voyahchat-device-name-mac.zip
+- Скачать voyahchat-device-name-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-device-name-mac.zip
 ```
-    - Разархивировать
+- Разархивировать
 ```
 unzip -o voyahchat-device-name-mac.zip
 ```
     - Имя машины в скрипте выставлено в `FREE`, если хотите его изменить — откройте `voyahchat-device-name.sh` на редактирование и замените
-    - Выполнить скрипт установки
+- Выполнить скрипт установки
 ```
 sh ./voyahchat-device-name.sh
 ```

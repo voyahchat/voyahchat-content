@@ -21,19 +21,19 @@ NXP это старый чип на дорест33, прежде чем начи
 # Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
-    - Перейти в директорию `Downloads`
+- Перейти в директорию `Downloads`
 ```
 cd ~/Downloads
 ```
-    - Скачать voyahchat-yandex-navi-nxp-mac.zip
+- Скачать voyahchat-yandex-navi-nxp-mac.zip
 ```
 curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-yandex-navi-nxp-mac.zip
  ```
-    - Разархивировать
+- Разархивировать
 ```
 unzip -o voyahchat-yandex-navi-nxp-mac.zip
 ```
-    - Выполнить скрипт установки
+- Выполнить скрипт установки
 ```
 sh ./voyahchat-yandex-navi-nxp.sh
 ```
