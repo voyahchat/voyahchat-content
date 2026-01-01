@@ -63,7 +63,7 @@
 # Прошивка
 
 - [Прошивка](firmware.md)
-- [Платное обновление](firmware_update_paid.md)
+- [Платное обновление](../help/firmware.md)
 - [Самостоятельное обновление](firmware_update_manual.md)
 
 # Lantu
