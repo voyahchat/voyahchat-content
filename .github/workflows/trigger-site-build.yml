@@ -1,0 +1,30 @@
+name: Trigger Site Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  trigger-site-build:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'voyahchat'  # Only run in official organization
+
+    steps:
+    - name: Trigger site build
+      uses: peter-evans/repository-dispatch@v3
+      with:
+        token: ${{ secrets.SITE_BUILD_TOKEN }}
+        repository: voyahchat/voyahchat-site
+        event-type: content-updated
+        client-payload: |
+          {
+            "repository": "${{ github.repository }}",
+            "ref": "${{ github.ref }}",
+            "sha": "${{ github.sha }}",
+            "branch": "${{ github.ref_name }}",
+            "commit_message": "${{ github.event.head_commit.message }}",
+            "actor": "${{ github.actor }}",
+            "workflow": "${{ github.workflow }}"
+          }
