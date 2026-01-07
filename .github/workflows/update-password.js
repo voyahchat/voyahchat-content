@@ -2,49 +2,72 @@
 const fs = require('fs');
 const path = require('path');
 
-// Determine if scheduled run
-const isScheduled = process.env.GITHUB_EVENT_NAME === 'schedule' || process.argv.includes('--scheduled');
-
-// Get Beijing date (UTC+8)
-const now = new Date();
-if (isScheduled) {
-  now.setDate(now.getDate() + 1);
+function calculatePassword(year, month, day) {
+    const y = String(year);
+    return [
+        Number(y[0]) + Number(month[0]),
+        Number(y[1]) + Number(month[1]),
+        Number(y[2]) + Number(day[0]),
+        Number(y[3]) + Number(day[1])
+    ].join('');
 }
 
-const beijingOffset = 8 * 60;
-const utc = now.getTime() + now.getTimezoneOffset() * 60000;
-const beijing = new Date(utc + beijingOffset * 60000);
+function getNextBeijingDayPassword() {
+    const now = new Date();
 
-const year = beijing.getFullYear();
-const month = String(beijing.getMonth() + 1).padStart(2, '0');
-const day = String(beijing.getDate()).padStart(2, '0');
-const mmdd = month + day;
+    // Get current Moscow time to determine the target date
+    const moscowTime = new Date(now.toLocaleString("en-US", {timeZone: "Europe/Moscow"}));
+    const targetDate = new Date(moscowTime);
 
-// Calculate password: sum each column
-const y = String(year);
-const password = [
-  Number(y[0]) + Number(month[0]),
-  Number(y[1]) + Number(month[1]),
-  Number(y[2]) + Number(day[0]),
-  Number(y[3]) + Number(day[1])
-].join('');
+    // If running between 18:57 and 19:00 MSK (scheduled cron time), add 1 day
+    // Otherwise, use today (current password period)
+    const moscowHour = moscowTime.getHours();
+    const moscowMin = moscowTime.getMinutes();
 
-console.log(`Date: ${year}-${month}-${day}`);
-console.log(`MMDD: ${mmdd}`);
-console.log(`Password: ${password}`);
+    if (moscowHour === 18 && moscowMin >= 57) {
+        // Scheduled run: generate password for tomorrow
+        targetDate.setDate(targetDate.getDate() + 1);
+    }
+    // else: use today (current password period)
+
+    const password = calculatePassword(
+        targetDate.getFullYear(),
+        String(targetDate.getMonth() + 1).padStart(2, '0'),
+        String(targetDate.getDate()).padStart(2, '0')
+    );
+
+    return {
+        password,
+        currentDate: moscowTime,
+        targetDate: targetDate
+    };
+}
+
+function updatePasswordFile() {
+    const { password, currentDate, targetDate } = getNextBeijingDayPassword();
+
+    const file = path.join(repoRoot, 'common/password.md');
+    let content = fs.readFileSync(file, 'utf8');
+
+    // Update ONLY the time-based password line (line 5)
+    // Start date is always today at 19:00 MSK
+    const startFormatted = `${currentDate.getDate()}.${String(currentDate.getMonth() + 1).padStart(2, '0')}.${currentDate.getFullYear()}`;
+
+    // End date is always tomorrow at 19:00 MSK
+    const endDate = new Date(currentDate);
+    endDate.setDate(currentDate.getDate() + 1);
+    const endFormatted = `${endDate.getDate()}.${String(endDate.getMonth() + 1).padStart(2, '0')}.${endDate.getFullYear()}`;
+
+    // Use flexible regex to replace only password and dates, preserving other text
+    content = content.replace(
+        /^`\d+`(.*)\d+\.\d+\.\d+(.*)\d+\.\d+\.\d+(.*)/m,
+        `\`${password}\`$1${startFormatted}$2${endFormatted}$3`
+    );
+
+    fs.writeFileSync(file, content);
+    console.log('File updated:', file);
+}
 
 // Find password.md relative to repo root
 const repoRoot = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../..');
-const file = path.join(repoRoot, 'common/password.md');
-
-let content = fs.readFileSync(file, 'utf8');
-
-// Replace year, mmdd, and password in the code block
-// Use specific spacing for alignment
-content = content.replace(/^(\d+)(\s+)(.\s+год)/m, `${year}  $3`);
-content = content.replace(/^(\d+)(\s+)(.\s+месяц)/m, `${mmdd}  $3`);
-content = content.replace(/^(\d+)(\s+)(.\s+динамический)/m, `${password}${password.length === 4 ? '  ' : ' '}$3`);
-
-fs.writeFileSync(file, content);
-console.log('File updated:', file);
-
+updatePasswordFile();

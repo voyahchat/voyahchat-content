@@ -9,7 +9,7 @@ on:
 jobs:
   trigger-site-build:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'voyahchat'  # Only run in official organization
+    if: github.repository_owner == 'voyahchat' || github.actor == 'github-actions[bot]'  # Run in official organization or for bot commits
 
     steps:
     - name: Trigger site build
