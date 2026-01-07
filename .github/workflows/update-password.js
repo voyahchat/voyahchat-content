@@ -19,16 +19,22 @@ function getNextBeijingDayPassword() {
     const moscowTime = new Date(now.toLocaleString("en-US", {timeZone: "Europe/Moscow"}));
     const targetDate = new Date(moscowTime);
 
-    // If running between 18:57 and 19:00 MSK (scheduled cron time), add 1 day
-    // Otherwise, use today (current password period)
+    // Logic:
+    // 18:57 - 23:59:59: generate password for tomorrow
+    // 00:00 - 18:56:59: generate password for today
     const moscowHour = moscowTime.getHours();
     const moscowMin = moscowTime.getMinutes();
 
-    if (moscowHour === 18 && moscowMin >= 57) {
-        // Scheduled run: generate password for tomorrow
+    const shouldGenerateForTomorrow = (moscowHour === 18 && moscowMin >= 57) ||
+        (moscowHour >= 19 && moscowHour <= 23);
+
+    if (shouldGenerateForTomorrow) {
+        // Generate password for tomorrow
         targetDate.setDate(targetDate.getDate() + 1);
+        console.log(`Generating password for tomorrow (time: ${moscowHour}:${moscowMin.toString().padStart(2, '0')})`);
+    } else {
+        console.log(`Generating password for today (time: ${moscowHour}:${moscowMin.toString().padStart(2, '0')})`);
     }
-    // else: use today (current password period)
 
     const password = calculatePassword(
         targetDate.getFullYear(),
