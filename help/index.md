@@ -5,7 +5,9 @@
 # Москва
 
 ## Приложения
-- `10000` [Установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025/Dreamer 2022-2024/Passion](software.md)
+- `10000` [Установка приложений на Voyah Passion](software.md)
+- `10000` [Установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025 (8155)](software.md)
+- `15000` [Установка приложений и VoyahTweaks/CunBA на Voyah Free 2021 (NXP) / Dreamer 2022-2024](software.md)
 - `25000` Установка приложений на Courage
 - `25000` Установка приложений на Dreamer 2025 с двумя экранами
 
@@ -22,10 +24,12 @@
 # Удалённо
 
 ## Приложения
-- [Удалённая установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025/Dreamer 2022-2024/Passion](software.md)
+- `10000` [Удалённая установка приложений на Voyah Passion](software.md)
+- `10000` [Удалённая установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025 (8155)](software.md)
+- `15000` [Удалённая установка приложений и VoyahTweaks/CunBA на Voyah Free 2021 (NXP) / Dreamer 2022-2024](software.md)
 
 ## Прошивка
-- [Удалённое обновление прошивки китайских Voyah Free 2023-2025/Dreamer 2022-2024](firmware.md)
+- [Удалённое обновление прошивки китайских Voyah Free 2023-2025 / Dreamer 2022-2024](firmware.md)
 
 ## МА
 - `30000` Активация Free 2023-2025, Dreamer 2022-2025, Passion, Dreamer 2025, Free+, Taishan и передача МА
