@@ -20,12 +20,12 @@ function getNextBeijingDayPassword() {
     const targetDate = new Date(moscowTime);
 
     // Logic:
-    // 18:57 - 23:59:59: generate password for tomorrow
-    // 00:00 - 18:56:59: generate password for today
+    // 18:27 - 23:59:59: generate password for tomorrow
+    // 00:00 - 18:26:59: generate password for today
     const moscowHour = moscowTime.getHours();
     const moscowMin = moscowTime.getMinutes();
 
-    const shouldGenerateForTomorrow = (moscowHour === 18 && moscowMin >= 57) ||
+    const shouldGenerateForTomorrow = (moscowHour === 18 && moscowMin >= 27) ||
         (moscowHour >= 19 && moscowHour <= 23);
 
     if (shouldGenerateForTomorrow) {
