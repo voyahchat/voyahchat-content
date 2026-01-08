@@ -5,9 +5,9 @@
 # Москва
 
 ## Приложения
-- `10000` [Установка приложений и VoyahTweaks/CunBA на Voyah Free/Dreamer/Passion](software.md)
+- `10000` [Установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025/Dreamer 2022-2024/Passion](software.md)
 - `25000` Установка приложений на Courage
-- `25000` Установка приложений на Dreamer 2025
+- `25000` Установка приложений на Dreamer 2025 на базе Android
 
 ## Прошивка
 - `50000` Обновление прошивки на HarmonyOS в Москве на Free+, Dreamer 2025, Taishan
@@ -22,10 +22,10 @@
 # Удалённо
 
 ## Приложения
-- [Удалённая установка приложений и VoyahTweaks/CunBA на Voyah Free/Dreamer/Passion](software.md)
+- [Удалённая установка приложений и VoyahTweaks/CunBA на Voyah Free 2021-2025/Dreamer 2022-2024/Passion](software.md)
 
 ## Прошивка
-- [Удалённое обновление прошивки китайских Voyah Free/Dreamer](firmware.md)
+- [Удалённое обновление прошивки китайских Voyah Free 2023-2025/Dreamer 2022-2024](firmware.md)
 
 ## МА
 - `18000` Активация Free, Dreamer, Passion и передача МА
