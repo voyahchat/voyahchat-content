@@ -8,7 +8,7 @@
 
 4. [Перезагрузить машину](reboot.md#приборка) для применения изменений
 
-## Windows
+# Windows
 
 1. Скачать [voyahchat-dns.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-dns.zip)
 
@@ -18,7 +18,7 @@
 
 4. Запустить пакетный файл Windows `voyahchat-dns.bat`
 
-## Mac
+# Mac
 
 Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
 - Перейти в директорию `Downloads`
