@@ -65,9 +65,10 @@ function updatePasswordFile() {
     const endFormatted = `${endDate.getDate()}.${String(endDate.getMonth() + 1).padStart(2, '0')}.${endDate.getFullYear()}`;
 
     // Use flexible regex to replace only password and dates, preserving other text
+    // Match exactly DD.MM.YYYY format to avoid accumulating digits
     content = content.replace(
-        /^`\d+`(.*)\d+\.\d+\.\d+(.*)\d+\.\d+\.\d+(.*)/m,
-        `\`${password}\`$1${startFormatted}$2${endFormatted}$3`
+        /^`\d+`(.*?)(\d{1,2})\.(\d{2})\.(\d{4})(.*?)(\d{1,2})\.(\d{2})\.(\d{4})(.*)/m,
+        `\`${password}\`$1${startFormatted}$5${endFormatted}$9`
     );
 
     fs.writeFileSync(file, content);
