@@ -73,6 +73,14 @@ function updatePasswordFile() {
 
     fs.writeFileSync(file, content);
     console.log('File updated:', file);
+
+    // Save password to JSON file for use in build process
+    const jsonFile = path.join(repoRoot, 'common/password.json');
+    const passwordData = {
+        password,
+    };
+    fs.writeFileSync(jsonFile, JSON.stringify(passwordData, null, 2));
+    console.log('JSON updated:', jsonFile);
 }
 
 // Find password.md relative to repo root
