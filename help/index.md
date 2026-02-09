@@ -21,6 +21,14 @@
 - `20000` Перепайка SIM-карты Voyah Passion с выездом
 - `20000` Перепайка SIM-карты Voyah Free+, Dreamer 2025 с одним экраном, Taishan
 
+# Краснодар
+
+## SIM
+- `12000` Перепайка SIM-карты Voyah Free 2021-2025
+- `12000` Перепайка SIM-карты Voyah Dreamer 2022-2024
+- `20000` Перепайка SIM-карты Voyah Passion
+- `20000` Перепайка SIM-карты Voyah Free+, Dreamer 2025 с одним экраном, Taishan
+
 # Удалённо
 
 ## Приложения
