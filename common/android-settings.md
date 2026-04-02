@@ -15,7 +15,10 @@ adb shell am start -a android.settings.SETTINGS
 
 # Остановить приложение
 
-1. Запустить `Settings` из лаунчера
+1. Запустить `Settings` из лаунчера или командой
+```
+adb shell am start -a android.settings.SETTINGS
+```
 2. Выбрать пункт `Apps & notifications`, развернуть `Show all applications`
 3. Найти приложение в списке, нажать на него
 4. Нажать `Force stop`, нажать `OK`
@@ -24,7 +27,10 @@ adb shell am start -a android.settings.SETTINGS
 
 # Удалить приложение
 
-1. Запустить `Settings` из лаунчера
+1. Запустить `Settings` из лаунчера или командой
+```
+adb shell am start -a android.settings.SETTINGS
+```
 2. Выбрать пункт `Apps & notifications`, развернуть `Show all applications`
 3. Найти приложение в списке, нажать на него
 4. Нажать `Uninstall`, нажать `OK`
