@@ -8,6 +8,10 @@
 - [Ссылки на популярные приложения](software_links.md)
 - [Изменение DNS в машине](software_dns.md)
 
+# Pasiqo
+
+- [Установка](pasiqo_install.md)
+
 # VoyahTweaks
 
 - [Возможности](tweaks_features.md)
