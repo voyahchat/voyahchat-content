@@ -1,4 +1,4 @@
-У вас в машине должен быть интернет во время установки.
+/У вас в машине должен быть интернет во время установки.
 
 1. Включить [USB Debugging](usb-debugging.md)
 
@@ -8,11 +8,11 @@
 
 # Windows
 
-1. Скачать [pasiqo-1.1.0.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.1.0.zip)
+1. Скачать [pasiqo-1.1.1.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.1.1.zip)
 
-2. Разархивировать `pasiqo-1.1.0.zip`
+2. Разархивировать `pasiqo-1.1.1.zip`
 
-3. Зайти в директорию `pasiqo-1.1.0`
+3. Зайти в директорию `pasiqo-1.1.1`
 
 4. Запустить `install.bat`
 
@@ -23,17 +23,17 @@
 ```
 cd ~/Downloads
 ```
-- Скачать pasiqo-1.1.0.zip
+- Скачать pasiqo-1.1.1.zip
 ```
-curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.1.0.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.1.1.zip
 ```
 - Разархивировать
 ```
-unzip -o pasiqo-1.1.0.zip
+unzip -o pasiqo-1.1.1.zip
 ```
-- Перейти в директорию `pasiqo-1.1.0`
+- Перейти в директорию `pasiqo-1.1.1`
 ```
-cd pasiqo-1.1.0
+cd pasiqo-1.1.1
 ```
 - Выполнить скрипт установки
 ```
