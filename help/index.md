@@ -19,6 +19,13 @@
 - `20000` Перепайка SIM-карты Voyah Passion с выездом
 - `20000` Перепайка SIM-карты Voyah Free+, Dreamer 2025 с одним экраном
 
+# Владимир
+
+## Приложения
+- `10000` [Установка приложений и Pasiqo на Voyah Passion](software.md)
+- `10000` [Установка приложений и VoyahTweaks на Voyah Free 2021-2025 (8155)](software.md)
+- `15000` [Установка приложений и VoyahTweaks на Dreamer 2022-2024](software.md)
+
 # Краснодар
 
 ## SIM
