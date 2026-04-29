@@ -8,11 +8,11 @@
 
 # Windows
 
-1. Скачать [pasiqo-1.4.2.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.4.2.zip)
+1. Скачать [pasiqo-1.4.3.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.4.3.zip)
 
-2. Разархивировать `pasiqo-1.4.2.zip`
+2. Разархивировать `pasiqo-1.4.3.zip`
 
-3. Зайти в директорию `pasiqo-1.4.2`
+3. Зайти в директорию `pasiqo-1.4.3`
 
 4. Запустить `install.bat`
 
@@ -23,17 +23,17 @@
 ```
 cd ~/Downloads
 ```
-- Скачать pasiqo-1.4.2.zip
+- Скачать pasiqo-1.4.3.zip
 ```
-curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.4.2.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.4.3.zip
 ```
 - Разархивировать
 ```
-unzip -o pasiqo-1.4.2.zip
+unzip -o pasiqo-1.4.3.zip
 ```
-- Перейти в директорию `pasiqo-1.4.2`
+- Перейти в директорию `pasiqo-1.4.3`
 ```
-cd pasiqo-1.4.2
+cd pasiqo-1.4.3
 ```
 - Выполнить скрипт установки
 ```
