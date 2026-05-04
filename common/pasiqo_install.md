@@ -6,6 +6,12 @@
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
+4. Зарегистрироваться на [pasiqo.voyah.live](https://pasiqo.voyah.live), подтвердить свой email в почте
+
+5. Оплатить подписку на год через USDT/USDC на сайте [pasiqo.voyah.live](https://pasiqo.voyah.live) или в рублях через [чат заказа услуг](https://t.me/+JftLkZ-jTFA4OGYy)
+
+6. После активации подписки перейти на [pasiqo.voyah.live/redeem](https://pasiqo.voyah.live/redeem) и ввести 6 цифр из машины для связи аккаунта и машины
+
 # Windows
 
 1. Скачать [pasiqo-1.4.3.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/pasiqo-1.4.3.zip)
