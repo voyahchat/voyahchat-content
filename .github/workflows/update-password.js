@@ -71,27 +71,32 @@ function updatePasswordFile() {
         `\`${password}\`$1${startFormatted}$5${endFormatted}$9`
     );
 
-    // Update algorithm example: replace only numbers, keep rest of line intact
+    // Update algorithm example with conditional formatting based on password length
     const year = targetDate.getFullYear();
     const month = String(targetDate.getMonth() + 1).padStart(2, '0');
     const day = String(targetDate.getDate()).padStart(2, '0');
 
-    // Line: `XXXX  — год` → replace XXXX with current year
+    // Format: add trailing space inside backticks for year/month when password is 5 digits
+    const yearDisplay = password.length === 5 ? year + ' ' : year;
+    const monthDayDisplay = password.length === 5 ? month + day + ' ' : month + day;
+
+    // Line: `XXXX ` — год` or `XXXX` — год` → replace with formatted year
     content = content.replace(
-        /(`)\d{4}(` .+?год`)/,
-        '$1' + year + '$2'
+        /(`)\d{4} ?(` .+?год`)/,
+        '$1' + yearDisplay + '$2'
     );
 
-    // Line: `XXXX  — месяц, день` → replace XXXX with MMDD
+    // Line: `XXXX ` — месяц, день` or `XXXX` — месяц, день` → replace with formatted month+day
     content = content.replace(
-        /(`)\d{4}(` .+?месяц, день`)/,
-        '$1' + month + day + '$2'
+        /(`)\d{4} ?(` .+?месяц, день`)/,
+        '$1' + monthDayDisplay + '$2'
     );
 
-    // Line: `XXXXX — динамический пароль...` → replace XXXXX with password
+    // Line: `XXXXX` — динамический пароль... or `XXXX` — динамический пароль...
+    // Password never has spaces inside backticks
     content = content.replace(
-        /(`)\d{5}(` .+?динамический пароль, сложить каждый столбец отдельно`)/,
-        '$1' + password + '$2'
+        /.+динамический пароль, сложить каждый столбец отдельно/,
+        '`' + password + '` — динамический пароль, сложить каждый столбец отдельно'
     );
 
     fs.writeFileSync(file, content);
