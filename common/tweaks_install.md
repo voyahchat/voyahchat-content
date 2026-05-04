@@ -2,7 +2,7 @@
 
 У вас в машине должен быть интернет во время установки.
 
-Если у вас машина ОД РФ, то перед установкой VoyahTweaks нужно удалить VoyahStore через ADB.
+Если у вас машина ОД РФ, то перед установкой VoyahTweaks нужно отключить VoyahStore через [ADB](adb.md):
 
 1. Включить [USB Debugging](usb-debugging.md)
 
@@ -10,19 +10,26 @@
 
 3. Выполнить установку приложения на [Windows](#windows) или [Mac](#mac)
 
-4. [Перезагрузить мультимедиа](reboot.md#мультимедиа) для применения изменений
+4. Если у вас машина ОД РФ, то нужно отключить VoyahStore через [ADB](adb.md):
+
+    ```
+    adb root
+    adb shell
+    su
+    pm disable ru.mi.voyahstore
+    ```
+
+5. [Перезагрузить мультимедиа](reboot.md#мультимедиа) для применения изменений
 
 Дальше можно воспользоваться [инструкцией по настройке приложений](software_setup.md).
 
-Так же можно запустить [скрипт быстрой настройки](tweaks_settings-script.md) для применения типичных настроек VoyahTweaks.
-
 # Windows
 
-1. Скачать [VoyahTweaks_2.6.1.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.6.1.zip)
+1. Скачать [VoyahTweaks_2.7.0.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.7.0.zip)
 
-2. Разархивировать `VoyahTweaks_2.6.1.zip` в корень диска `C:`
+2. Разархивировать `VoyahTweaks_2.7.0.zip`
 
-3. Зайти в директорию `C:\VoyahTweaks_2.6.1`
+3. Зайти в директорию `VoyahTweaks_2.7.0`
 
 4. Запустить `install_Win.bat`
 
@@ -33,17 +40,17 @@
 ```
 cd ~/Downloads
 ```
-- Скачать VoyahTweaks_2.6.1.zip
+- Скачать VoyahTweaks_2.7.0.zip
 ```
-curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.6.1.zip
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/VoyahTweaks_2.7.0.zip
 ```
 - Разархивировать
 ```
-unzip -o VoyahTweaks_2.6.1.zip
+unzip -o VoyahTweaks_2.7.0.zip
 ```
-- Перейти в директорию `VoyahTweaks_2.6.1`
+- Перейти в директорию `VoyahTweaks_2.7.0`
 ```
-cd VoyahTweaks_2.6.1
+cd VoyahTweaks_2.7.0
 ```
 - Выполнить скрипт установки
 ```
