@@ -14,8 +14,14 @@
 
     ```
     adb root
+    ```
+    ```
     adb shell
+    ```
+    ```
     su
+    ```
+    ```
     pm disable ru.mi.voyahstore
     ```
 
