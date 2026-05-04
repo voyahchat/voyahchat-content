@@ -19,7 +19,6 @@
 - [Голосовые команды](tweaks_voice.md)
 - [Изменения по версиям](tweaks_changelog.md)
 - [Установка](tweaks_install.md)
-- [Скрипт быстрой настройки](tweaks_settings-script.md)
 - [Установка NXP](tweaks_install-nxp.md)
 - [Сравнение VoyahTweaks 2.5.3 и CunBA 2.5.8](enhance.md)
 - [Платная установка/настройка VoyahTweaks и приложений](../help/software.md)

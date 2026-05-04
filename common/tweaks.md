@@ -18,6 +18,5 @@
 
 * [Установка](tweaks_install.md)
 * [Установка на NXP (старый чип на дорест33 до 2023)](tweaks_install-nxp.md)
-* [Скрипт быстрой настройки](tweaks_settings-script.md)
 * [Платная установка/настройка VoyahTweaks и приложений](../help/software.md)
 
