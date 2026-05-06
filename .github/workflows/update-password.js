@@ -82,13 +82,13 @@ function updatePasswordFile() {
 
     // Line: `XXXX ` — год` or `XXXX` — год` → replace with formatted year
     content = content.replace(
-        /(`)\d{4} ?(` .+?год`)/,
+        /(`)\d{4} ?(`[\xa0 ]— год)/,
         '$1' + yearDisplay + '$2'
     );
 
     // Line: `XXXX ` — месяц, день` or `XXXX` — месяц, день` → replace with formatted month+day
     content = content.replace(
-        /(`)\d{4} ?(` .+?месяц, день`)/,
+        /(`)\d{4} ?(`[\xa0 ]— месяц, день)/,
         '$1' + monthDayDisplay + '$2'
     );
 

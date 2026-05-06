@@ -94,12 +94,12 @@ function updatePasswordFile(testContent, targetDate, currentDate) {
     const monthDayDisplay = password.length === 5 ? month + day + ' ' : month + day;
 
     content = content.replace(
-        /(`)\d{4} ?(` .+?год`)/,
+        /(`)\d{4} ?(`[\xa0 ]— год)/,
         '$1' + yearDisplay + '$2'
     );
 
     content = content.replace(
-        /(`)\d{4} ?(` .+?месяц, день`)/,
+        /(`)\d{4} ?(`[\xa0 ]— месяц, день)/,
         '$1' + monthDayDisplay + '$2'
     );
 
@@ -240,6 +240,26 @@ if (runTest('4-digit password - password format', () => {
     const lines = result.content.split('\n');
     const match = lines.find(l => l.endsWith(' — динамический') || l.endsWith(' — динамический<br>'));
     assertEqual(match || '', '`2127` — динамический', '4-digit password should have no spaces');
+})) passed++; else failed++;
+
+// Test: verify month/day actually changes when date changes
+if (runTest('month/day actually updates when date changes', () => {
+    const input = newFormat5digit
+        .replace('{YEAR}', '2026')
+        .replace('{MONTH_DAY}', '0404')
+        .replace('{PASSWORD}', '24210')
+        .replace('{OLD_PASSWORD}', '24210')
+        .replace('{START_DATE}', '4.04.2026')
+        .replace('{END_DATE}', '5.04.2026');
+
+    const targetDate = new Date('2026-05-05T00:00:00Z');
+    const currentDate = new Date('2026-05-04T16:00:00Z');
+    const result = updatePasswordFile(input, targetDate, currentDate);
+
+    const lines = result.content.split('\n');
+    const monthDayLine = lines.find(l => l.includes('месяц, день'));
+    assertEqual(monthDayLine.includes('0505'), true, 'Month/day should be updated from 0404 to 0505');
+    assertEqual(monthDayLine.includes('0404'), false, 'Old month/day 0404 should not remain');
 })) passed++; else failed++;
 
 console.log(`\n${passed} passed, ${failed} failed`);
