@@ -6,7 +6,7 @@
 
 # Стоимость
 
-- `10000` Voyah Free 2021-2025 (8155) и Passion
+- `10000` Voyah Free 2021-2026 (8155, не Free+) и Passion
 - `15000` Voyah Free 2021 (NXP) и Dreamer 2022-2024
 
 # Результат
@@ -29,7 +29,7 @@
 - RuTube
 - Кинопоиск
 - ЭфирТВ
-- AutoKit (по желанию, у вас должен быть куплен Carlinkit [CPC200-CCPA](https://www.carlinkit.com/ccpa) (беспроводное подключение телефона) или [CPC200-CCPM](https://www.carlinkit.com/ccpm) (проводное подключение телефона))
+- AutoKit (по желанию, у вас должен быть куплен Carlinkit [CPC200-CCPA](https://www.carlinkit.com/ccpa) (беспроводное подключение телефона) или [CPC200-CCPM](https://www.carlinkit.com/ccpm) (проводное подключение телефона)) — не работает на Passion
 - YouTube (по желанию, VPN/ByeDPI не настраивается)
 
 Остальные приложения вы сможете установить самостоятельно из магазина приложений.
