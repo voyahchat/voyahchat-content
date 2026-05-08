@@ -1,6 +1,6 @@
 У вас в машине должен быть интернет во время установки.
 
-1. Включить [USB Debugging](usb-debugging.md)
+1. Включить [USB Debugging](usb-debugging.md#passion-courage)
 
 2. Подключить [кабель](cable.md) в USB Type-A, если портов два — в порт USB Type-A ближе к водителю
 
