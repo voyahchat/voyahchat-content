@@ -12,6 +12,7 @@
 - [Русификация](russian.md)
 - [Прошивка](firmware.md)
 - [Обслуживание](maintenance.md)
+- [Каталоги запчастей](parts.md)
 
 # Руководства пользователя
 - [Гибрид, модель 2024 года («рест»)](https://github.com/voyahchat/voyahchat-docs/raw/refs/heads/main/voyah-free-evr-2024-user-manual-rus.pdf "Руководство пользователя, гибрид, модель 2024 года («рест»)"), 68 страниц
