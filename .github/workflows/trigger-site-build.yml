@@ -3,8 +3,6 @@ name: Trigger Site Build
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   trigger-site-build:
