@@ -1,938 +1,1170 @@
 {
-  "b5991eab1b6f14e7568b4285d19f74e8": {
-    "timestamp": 1764690946630,
-    "avif": {
-      "success": true,
-      "size": 1232,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 5580,
-      "quality": 90
-    }
-  },
-  "8ea80f17ad0779ccff161f1032729e13": {
-    "timestamp": 1764690946630,
-    "avif": {
-      "success": true,
-      "size": 1588,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 19236,
-      "quality": 90
-    }
-  },
-  "95d16f6ef672d4cff984d0313e9e0b1f": {
-    "timestamp": 1764690946630,
-    "avif": {
-      "success": true,
-      "size": 59843,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 62782,
-      "quality": 90
-    }
-  },
-  "736748728d175ce924772f3023ca60cf": {
-    "timestamp": 1764690946630,
-    "avif": {
-      "success": true,
-      "size": 19506,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 144278,
-      "quality": 90
-    }
-  },
-  "256dc5530a2d803cfac4ba4d2f7fbd51": {
-    "timestamp": 1764690957267,
-    "avif": {
-      "success": true,
-      "size": 16032,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 203046,
-      "quality": 90
-    }
-  },
-  "972e0879cc71aca02000c5f1b91a3f91": {
-    "timestamp": 1764690957267,
-    "avif": {
-      "success": true,
-      "size": 13376,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 247956,
-      "quality": 90
-    }
-  },
-  "a82669a328161a4accddd8db9a1e6b7c": {
-    "timestamp": 1764690957267,
-    "avif": {
-      "success": true,
-      "size": 37065,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 168778,
-      "quality": 90
-    }
-  },
-  "7ec71e0a82b5594449cc5914b0225dc2": {
-    "timestamp": 1764690961848,
-    "avif": {
-      "success": true,
-      "size": 39191,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 181016,
-      "quality": 90
-    }
-  },
-  "0bf950b4524d5806032bfc440cafe672": {
-    "timestamp": 1764690963723,
-    "avif": {
-      "success": true,
-      "size": 50655,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 337410,
-      "quality": 90
-    }
-  },
-  "6a331068677b36b45c700aebfbaf82a5": {
-    "timestamp": 1764690966340,
-    "avif": {
-      "success": true,
-      "size": 13710,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 184906,
-      "quality": 90
-    }
-  },
-  "2b0f00e921cfb4bcaee876c261aa387b": {
-    "timestamp": 1764690970296,
-    "avif": {
-      "success": true,
-      "size": 7430,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 167228,
-      "quality": 90
-    }
-  },
-  "1c41a94fe1fa9ca2b2aef290ed39daa9": {
-    "timestamp": 1764690970296,
-    "avif": {
-      "success": true,
-      "size": 9076,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 73904,
-      "quality": 90
-    }
-  },
-  "e76c60efc29b2997a87554cb816677f9": {
-    "timestamp": 1764690970296,
-    "avif": {
-      "success": true,
-      "size": 9203,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 174996,
-      "quality": 90
-    }
-  },
-  "c86693e3fdd15b74af49cf3b8d0637f2": {
-    "timestamp": 1764690970296,
-    "avif": {
-      "success": true,
-      "size": 20644,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 189768,
-      "quality": 90
-    }
-  },
-  "05ff7161d9fe0d460e5881134600ab38": {
-    "timestamp": 1764690972187,
-    "avif": {
-      "success": true,
-      "size": 13246,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 138844,
-      "quality": 90
-    }
-  },
-  "82e4c2cad2749f4750fbcdeda07134ed": {
-    "timestamp": 1764690972188,
-    "avif": {
-      "success": true,
-      "size": 7670,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 76562,
-      "quality": 90
-    }
-  },
-  "e3d13fc0c1fdd3575b85c66a793d2511": {
-    "timestamp": 1764690972188,
-    "avif": {
-      "success": true,
-      "size": 14185,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 182600,
-      "quality": 90
-    }
-  },
-  "7745b814b36a3ded59f8659f59cc3953": {
-    "timestamp": 1764690972443,
-    "avif": {
-      "success": true,
-      "size": 17217,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 212272,
-      "quality": 90
-    }
-  },
-  "44b31e27fbcf8e8ef4ff76a620055bbd": {
-    "timestamp": 1764690973935,
-    "avif": {
-      "success": true,
-      "size": 10923,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 118618,
-      "quality": 90
-    }
-  },
-  "24ed57aaa1ee2bb9cd1bc68273d34662": {
-    "timestamp": 1764690974496,
-    "avif": {
-      "success": true,
-      "size": 13411,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 157512,
-      "quality": 90
-    }
-  },
-  "ddc6eaa55c3931b95abfd35dd53def7a": {
-    "timestamp": 1764690977187,
-    "avif": {
-      "success": true,
-      "size": 5856,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 73898,
-      "quality": 90
-    }
-  },
-  "35da3544b8f4fcdc4eec88bf5a73977c": {
-    "timestamp": 1764690977187,
-    "avif": {
-      "success": true,
-      "size": 5856,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 73898,
-      "quality": 90
-    }
-  },
-  "bc504e806000c91796d33ed92022b63c": {
-    "timestamp": 1764690977187,
-    "avif": {
-      "success": true,
-      "size": 6487,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 83800,
-      "quality": 90
-    }
-  },
-  "c9c39c25aa3bd74f5e816b4fa45300bf": {
-    "timestamp": 1764690977187,
-    "avif": {
-      "success": true,
-      "size": 5856,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 73898,
-      "quality": 90
-    }
-  },
-  "c74f55d1b2fd396357ef114f766ec1f0": {
-    "timestamp": 1764690984174,
-    "avif": {
-      "success": true,
-      "size": 6867,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 83558,
-      "quality": 90
-    }
-  },
-  "7b2d9e824c75f7f663678a8d7f0b7f77": {
-    "timestamp": 1764690984174,
-    "avif": {
-      "success": true,
-      "size": 10341,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 21588,
-      "quality": 90
-    }
-  },
-  "9a355f3f9a58c54295a93413af7e4602": {
-    "timestamp": 1764690984174,
-    "avif": {
-      "success": true,
-      "size": 10120,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 41290,
-      "quality": 90
-    }
-  },
-  "38a3a41e4db62b649dbf8a9407a9fa52": {
-    "timestamp": 1764690985433,
-    "avif": {
-      "success": true,
-      "size": 9592,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 39842,
-      "quality": 90
-    }
-  },
-  "fb2df69c71d261206a639562283dd3e9": {
-    "timestamp": 1764690988322,
-    "avif": {
-      "success": true,
-      "size": 9592,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 39842,
-      "quality": 90
-    }
-  },
-  "6707eb88ed1c0739508f2864b6d4ccf7": {
-    "timestamp": 1764690996867,
-    "avif": {
-      "success": true,
-      "size": 17993,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 91320,
-      "quality": 90
-    }
-  },
-  "984ce673832776d7a73fe3f70f1205a6": {
-    "timestamp": 1764691000625,
-    "avif": {
-      "success": true,
-      "size": 6058,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 10720,
-      "quality": 90
-    }
-  },
-  "5923e89ac6e603846e25b6c0e69db77d": {
-    "timestamp": 1764691000625,
-    "avif": {
-      "success": true,
-      "size": 13528,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 28748,
-      "quality": 90
-    }
-  },
-  "f3c6dee09358a0ef831a4248031a4f6f": {
-    "timestamp": 1764691000625,
-    "avif": {
-      "success": true,
-      "size": 26596,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 54602,
-      "quality": 90
-    }
-  },
-  "7cc297c398fbe0fc9e5aed853ade831e": {
-    "timestamp": 1764691015500,
-    "avif": {
-      "success": true,
-      "size": 30363,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 176960,
-      "quality": 90
-    }
-  },
-  "d1343759e5003db135ae7ab311fb1689": {
-    "timestamp": 1764691017782,
-    "avif": {
-      "success": true,
-      "size": 39471,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 220760,
-      "quality": 90
-    }
-  },
-  "d4fe7286951102f1048ccc24258a756f": {
-    "timestamp": 1764691015500,
-    "avif": {
-      "success": true,
-      "size": 14035,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 61996,
-      "quality": 90
-    }
-  },
-  "98cd6c86e5d91652a4d9c65a74f8af49": {
-    "timestamp": 1764691018422,
-    "avif": {
-      "success": true,
-      "size": 15627,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 23818,
-      "quality": 80
-    }
-  },
-  "f96ba4cfc78db3d7f37a89cdb0db900a": {
-    "timestamp": 1764691017090,
-    "avif": {
-      "success": true,
-      "size": 13529,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 87306,
-      "quality": 90
-    }
-  },
-  "cf456da4ad8ebcb117201739aba2eb77": {
-    "timestamp": 1764691017649,
-    "avif": {
-      "success": true,
-      "size": 27967,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 64964,
-      "quality": 90
-    }
-  },
-  "1eb86985ff645eed922e77670d0b4a91": {
-    "timestamp": 1763202535179,
-    "avif": {
-      "success": true,
-      "size": 65052,
-      "quality": 37
-    },
-    "webp": {
-      "success": true,
-      "size": 66072,
-      "quality": 90
-    }
-  },
-  "2fc55c1465fa03138a76c4b49ff58215": {
-    "timestamp": 1764691205487,
-    "avif": {
-      "success": true,
-      "size": 33980,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 89672,
-      "quality": 90
-    }
-  },
-  "ed2040c82b15111723218052cf8a5822": {
-    "timestamp": 1764691205487,
-    "avif": {
-      "success": true,
-      "size": 18695,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 217672,
-      "quality": 90
-    }
-  },
-  "4b36c5c10d3569e209f5652daddf2b69": {
-    "timestamp": 1764691205487,
-    "avif": {
-      "success": true,
-      "size": 19120,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 223968,
-      "quality": 90
-    }
-  },
-  "af1d3aa402c184e59a4f0f3f86129d8b": {
-    "timestamp": 1764691205487,
-    "avif": {
-      "success": true,
-      "size": 13715,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 42410,
-      "quality": 90
-    }
-  },
-  "c466ff1c8008185c653b14d5585e51a1": {
-    "timestamp": 1764691216149,
-    "avif": {
-      "success": true,
-      "size": 17664,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 55990,
-      "quality": 90
-    }
-  },
-  "79f37f82a65e44d6fd13f575a9cce324": {
-    "timestamp": 1764691216149,
-    "avif": {
-      "success": true,
-      "size": 19034,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 222446,
-      "quality": 90
-    }
-  },
-  "5f45f3ca16a6a40e4f1108589ac432da": {
-    "timestamp": 1764691216149,
-    "avif": {
-      "success": true,
-      "size": 25411,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 614716,
-      "quality": 90
-    }
-  },
-  "3fdc45096674f3e679606454e31be4ca": {
-    "timestamp": 1764691217207,
-    "avif": {
-      "success": true,
-      "size": 15139,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 735412,
-      "quality": 90
-    }
-  },
-  "c1e51981c6060f87258237ad3574c7bf": {
-    "timestamp": 1764691218219,
-    "avif": {
-      "success": true,
-      "size": 17218,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 254986,
-      "quality": 90
-    }
-  },
-  "b59263c598d8051e2cf53655a41dcb05": {
-    "timestamp": 1764691219155,
-    "avif": {
-      "success": true,
-      "size": 17192,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 255492,
-      "quality": 90
-    }
-  },
-  "8485c9cb26ef4b05c56f24bce830f7d9": {
-    "timestamp": 1764691224304,
-    "avif": {
-      "success": true,
-      "size": 15295,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 733050,
-      "quality": 90
-    }
-  },
-  "453f6b5b06919052d369a37875f5378e": {
-    "timestamp": 1764691224304,
-    "avif": {
-      "success": true,
-      "size": 15100,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 733876,
-      "quality": 90
-    }
-  },
-  "9b3c60a1864a4890b911e1604715223e": {
-    "timestamp": 1764691236140,
-    "avif": {
-      "success": true,
-      "size": 17181,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 255150,
-      "quality": 90
-    }
-  },
-  "04b7d125d4f0d3c7cff9a893d0171098": {
-    "timestamp": 1764691236140,
-    "avif": {
-      "success": true,
-      "size": 17214,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 255506,
-      "quality": 90
-    }
-  },
-  "fb0d585a63706250ed737865a0a8c227": {
-    "timestamp": 1764691238513,
-    "avif": {
-      "success": true,
-      "size": 17157,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 255010,
-      "quality": 90
-    }
-  },
-  "5f2c4af9ccff5c8ed7d6a5d5c8580526": {
-    "timestamp": 1764691236951,
-    "avif": {
-      "success": true,
-      "size": 16276,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 265722,
-      "quality": 90
-    }
-  },
-  "2bb1da6052a32f8f96da2ebc136d5114": {
-    "timestamp": 1764691257800,
-    "avif": {
-      "success": true,
-      "size": 15392,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 549938,
-      "quality": 79
-    }
-  },
-  "4b4379fba4ae679d4bb428d0b7e1b6c9": {
-    "timestamp": 1764691256928,
-    "avif": {
-      "success": true,
-      "size": 15455,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 549060,
-      "quality": 79
-    }
-  },
-  "9dad57e1a7f126d4b02769d6acddac9b": {
-    "timestamp": 1764691266536,
-    "avif": {
-      "success": true,
-      "size": 30209,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 276698,
-      "quality": 79
-    }
-  },
-  "138f33a64fb5f3bd7bce1b804bc7853f": {
-    "timestamp": 1764691266006,
-    "avif": {
-      "success": true,
-      "size": 30363,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 277372,
-      "quality": 79
-    }
-  },
-  "4bc12bbbef0744606f1e3148fd132f90": {
-    "timestamp": 1764691280797,
-    "avif": {
-      "success": true,
-      "size": 15952,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 192944,
-      "quality": 90
-    }
-  },
-  "260442cfe6131ca99af595a11575ac77": {
-    "timestamp": 1764691280797,
-    "avif": {
-      "success": true,
-      "size": 17339,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 255026,
-      "quality": 90
-    }
-  },
-  "2c80ec3e6c778ba46ead229ca10c7c01": {
-    "timestamp": 1764691282402,
-    "avif": {
-      "success": true,
-      "size": 21136,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 225740,
-      "quality": 90
-    }
-  },
-  "e697ce92c0b5ab015f7f71b7438e0fce": {
-    "timestamp": 1764691282813,
-    "avif": {
-      "success": true,
-      "size": 15846,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 192964,
-      "quality": 90
-    }
-  },
-  "c2f2dc860399b395a7a925216dceb407": {
-    "timestamp": 1764691292452,
-    "avif": {
-      "success": true,
-      "size": 17316,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 239424,
-      "quality": 90
-    }
-  },
-  "bf1103fdacda4ceb4428bf57f2a08dda": {
-    "timestamp": 1764691297790,
-    "avif": {
-      "success": true,
-      "size": 10954,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 311166,
-      "quality": 79
-    }
-  },
-  "dabb9090ee549d74a32808efd997a040": {
-    "timestamp": 1764691187165,
-    "avif": {
-      "success": true,
-      "size": 94335,
-      "quality": 35
-    },
-    "webp": {
-      "success": true,
-      "size": 95354,
-      "quality": 90
-    }
-  },
-  "4a47f03439b15ce66ddbc89f3b659bbe": {
-    "timestamp": 1764693392539,
-    "avif": {
-      "success": true,
-      "size": 22109,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 251462,
-      "quality": 90
-    }
-  },
-  "27788799c8fc8de04e440d483152708e": {
-    "timestamp": 1764693419972,
-    "avif": {
-      "success": true,
-      "size": 17616,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 61514,
-      "quality": 90
-    }
-  },
-  "b7ce3a3a2debc1137bc33764078b8601": {
-    "timestamp": 1764694611890,
-    "avif": {
-      "success": true,
-      "size": 19848,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 66028,
-      "quality": 90
-    }
-  },
-  "0ae9dabb5bbd4d10a8a344d4af3d34d7": {
-    "timestamp": 1764695852570,
-    "avif": {
-      "success": true,
-      "size": 32596,
-      "quality": 50
-    },
-    "webp": {
-      "success": true,
-      "size": 69760,
-      "quality": 90
-    }
-  },
-  "3d4c0b14d02c05b70f07360ad7f9a0ab": {
-    "timestamp": 1764695861126,
-    "avif": {
-      "success": true,
-      "size": 34256,
-      "quality": 42
-    },
-    "webp": {
-      "success": true,
-      "size": 34266,
-      "quality": 90
-    }
+  "5370996ee7560cd0d396643f421d6754": {
+    "webp": 5580,
+    "avif": 1232
+  },
+  "55fe1362206cb63710042c33cec36cf6": {
+    "webp": 19236,
+    "avif": 1588
+  },
+  "3ad2fdae90b1376d860015b5ff86415a": {
+    "webp": 144278,
+    "avif": 19506
+  },
+  "bc2bdcc83e6d6312334a767fc7325837": {
+    "webp": 181016,
+    "avif": 39191
+  },
+  "0379b4397ce5aa4c932e36075248894a": {
+    "webp": 168778,
+    "avif": 37065
+  },
+  "fe875909c7d830cc56005f3f0931352c": {
+    "webp": 62782,
+    "avif": 59843
+  },
+  "da96bf77dead96e6093dd584c2cf00ad": {
+    "webp": 337410,
+    "avif": 50655
+  },
+  "208fc47f0f9cf08296b58e0196c95021": {
+    "webp": 184906,
+    "avif": 13710
+  },
+  "f3d5d5f1e058161c0c0f88b73a18e272": {
+    "webp": 203046,
+    "avif": 16032
+  },
+  "06517e144651982f712f99db9740afc2": {
+    "webp": 247956,
+    "avif": 13376
+  },
+  "be03d9d8cd16020d5493f5f5cae0ed92": {
+    "webp": 174996,
+    "avif": 9203
+  },
+  "8692569469943b0a1ac8df44e9e1f670": {
+    "webp": 167228,
+    "avif": 7430
+  },
+  "9565d3e36051119716b32592b8898686": {
+    "webp": 212272,
+    "avif": 17217
+  },
+  "007b77da15b5fd97cc24018a3efc0925": {
+    "webp": 189768,
+    "avif": 20644
+  },
+  "c9f158df3078318fb85959822ea99808": {
+    "webp": 73904,
+    "avif": 9076
+  },
+  "3006fa774d4d8c47744db49b9c259cec": {
+    "webp": 138844,
+    "avif": 13246
+  },
+  "f295f770da548db2a7b436a4a13117bb": {
+    "webp": 182600,
+    "avif": 14185
+  },
+  "9cf47875e00ec549351eca92fd775751": {
+    "webp": 76562,
+    "avif": 7670
+  },
+  "a3c6a8f6f384a1c93c2993728a5b75ba": {
+    "webp": 118618,
+    "avif": 10923
+  },
+  "6e2b7ca24d05bc742e7bdafdd031f11d": {
+    "webp": 157512,
+    "avif": 13411
+  },
+  "cdbad71fd195ccdad0c0817564ca37be": {
+    "webp": 83558,
+    "avif": 6867
+  },
+  "9c21dd54e56faeb84819b05adc135e1e": {
+    "webp": 83800,
+    "avif": 6487
+  },
+  "4095d6b20e9941e7a24484cfdc07f79d": {
+    "webp": 73898,
+    "avif": 5856
+  },
+  "8e8314f29af6925b47be7d4193990d13": {
+    "webp": 41290,
+    "avif": 10120
+  },
+  "6eb74e6dd11798dfc5f3b9c067bd591e": {
+    "webp": 39842,
+    "avif": 9592
+  },
+  "44d85bcf147813eaec1611d47b18de4e": {
+    "webp": 61996,
+    "avif": 14035
+  },
+  "24a4626e9d315abd2dd13464b9a88a67": {
+    "webp": 54602,
+    "avif": 26596
+  },
+  "af38b1381b548672eec156734db8ce9a": {
+    "webp": 23818,
+    "avif": 15627
+  },
+  "e9a4bc4270f40c06fd9ddd1178528418": {
+    "webp": 176960,
+    "avif": 30363
+  },
+  "8b36a0438d3841f63d95d6f429ff1d6a": {
+    "webp": 87306,
+    "avif": 13529
+  },
+  "6cd8110b02055e53da3b4a3e2657d507": {
+    "webp": 10720,
+    "avif": 6058
+  },
+  "ec864e72303c19a8705ce239e53467a0": {
+    "webp": 69760,
+    "avif": 32596
+  },
+  "1e177558e52aa8a79df3b41a1390afd2": {
+    "webp": 34266,
+    "avif": 34256
+  },
+  "1d5816f770256759668487bb66579be6": {
+    "webp": 251462,
+    "avif": 22109
+  },
+  "735816816d536bad8635dd44826fbede": {
+    "webp": 95354,
+    "avif": 94335
+  },
+  "a72f123a1ab2ef6f76d161c81b7c4937": {
+    "webp": 66028,
+    "avif": 19848
+  },
+  "6e5e33d19e1be135d06281fa5023d423": {
+    "webp": 61514,
+    "avif": 17616
+  },
+  "119d84d36bc1f5a3410a3e9e3b7845df": {
+    "webp": 89672,
+    "avif": 33980
+  },
+  "060052aff9926d817f962f5a7a1d9437": {
+    "webp": 45490,
+    "avif": 19147
+  },
+  "acade32e79dc90696a4c04bbd96e9913": {
+    "webp": 44300,
+    "avif": 16883
+  },
+  "a1f226c3dc50c5c11805c160d5220d86": {
+    "webp": 69408,
+    "avif": 32186
+  },
+  "d952857cd62fdf8baa31a15da3a45901": {
+    "webp": 64720,
+    "avif": 27630
+  },
+  "fa64d9ffdbdd38b04d732267008fb804": {
+    "webp": 39750,
+    "avif": 13938
+  },
+  "2a7096f41cf0a13c95c862232d8d0439": {
+    "webp": 46636,
+    "avif": 18927
+  },
+  "5677bd155b45acf26989bac538d3d625": {
+    "webp": 48568,
+    "avif": 20261
+  },
+  "50c96eeedec60dd4448ab36ceb970b52": {
+    "webp": 41730,
+    "avif": 16683
+  },
+  "99cf2032dfffa993c722ba188768277a": {
+    "webp": 46494,
+    "avif": 18614
+  },
+  "f07efc682b629eef94bec04fd5ba6fa4": {
+    "webp": 42110,
+    "avif": 16000
+  },
+  "91174aa047955316d960e8abbb9bba63": {
+    "webp": 27052,
+    "avif": 9546
+  },
+  "7aca6e83579f14f21a5b687e335847fc": {
+    "webp": 63808,
+    "avif": 17287
+  },
+  "444375ae2591518a64a9ecbc813bdee7": {
+    "webp": 37154,
+    "avif": 14396
+  },
+  "7661f839ba44cbfb9d19e2eb8a2b608b": {
+    "webp": 32692,
+    "avif": 12671
+  },
+  "3414279507dc42915ad3cb3ec67e6dc7": {
+    "webp": 40202,
+    "avif": 15939
+  },
+  "6e6babc16e4b352c9eb5c978edd5c302": {
+    "webp": 30042,
+    "avif": 11530
+  },
+  "a322cf752a0784e37d20ee9c058cc69f": {
+    "webp": 40932,
+    "avif": 15995
+  },
+  "2780a76c622998164fc07c7182673a57": {
+    "webp": 47728,
+    "avif": 18430
+  },
+  "24f05d8d6df6b3a117ab6610ce43f68d": {
+    "webp": 217672,
+    "avif": 18695
+  },
+  "05bec30ccafac8dcbf992e904616f5e9": {
+    "webp": 223968,
+    "avif": 19120
+  },
+  "9e3cd8e60c14bba8b213b6e51a582457": {
+    "webp": 254986,
+    "avif": 17218
+  },
+  "29181c780835513187c4c50c3d3b118a": {
+    "webp": 222446,
+    "avif": 19034
+  },
+  "b254abca6a024dda766a93d66461aa00": {
+    "webp": 255492,
+    "avif": 17192
+  },
+  "ac013e4d01c6dd5cd5915d3686cfbeb3": {
+    "webp": 614716,
+    "avif": 25411
+  },
+  "e69c905d8b4b1518e09321216be1a16a": {
+    "webp": 735412,
+    "avif": 15139
+  },
+  "7789858da27d7be9cd0006f59e18492b": {
+    "webp": 733050,
+    "avif": 15295
+  },
+  "71afb2171efdf758889a28fa64e4f031": {
+    "webp": 733876,
+    "avif": 15100
+  },
+  "b0fab27644f6e92602ecac149fc3c90c": {
+    "webp": 549938,
+    "avif": 15392
+  },
+  "c8114741e40fcd7211d9e5329afcb6d8": {
+    "webp": 549060,
+    "avif": 15455
+  },
+  "a755f913083eab2723868227861676a8": {
+    "webp": 255150,
+    "avif": 17181
+  },
+  "735382b3dfa0025a125398b8426b1fcd": {
+    "webp": 277372,
+    "avif": 30363
+  },
+  "47b185060ceab6f565e88d288b443ed4": {
+    "webp": 255506,
+    "avif": 17214
+  },
+  "135c9d908a60af8cc08c032d256da188": {
+    "webp": 276698,
+    "avif": 30209
+  },
+  "c7fdeb94e12bd07171a1e5e1686b55d7": {
+    "webp": 255010,
+    "avif": 17157
+  },
+  "3f57e52bf238f370d6b95875eb747ce7": {
+    "webp": 265722,
+    "avif": 16276
+  },
+  "62e5723492d14dc09daf4cf20f1ecf09": {
+    "webp": 225740,
+    "avif": 21136
+  },
+  "22ee9817e6a9dec785f05043dfd08789": {
+    "webp": 18266,
+    "avif": 7037
+  },
+  "0af4b2442b5b7359454498b92b03df57": {
+    "webp": 19722,
+    "avif": 12626
+  },
+  "e29c29665d62613c6d98d2be3364ebb1": {
+    "webp": 19722,
+    "avif": 12626
+  },
+  "b63ce44567db3778bec783823a0a6e45": {
+    "webp": 14648,
+    "avif": 5284
+  },
+  "3a6231a7ad1fdf3f01bb647d8d19dd3b": {
+    "webp": 8980,
+    "avif": 4053
+  },
+  "0a739a924d7369d3fd747f804aed06d9": {
+    "webp": 29196,
+    "avif": 15122
+  },
+  "e30cd50190b69cbd287bcc98c1dab116": {
+    "webp": 14102,
+    "avif": 8539
+  },
+  "2cdccd931549448905fff67d8758a005": {
+    "webp": 11360,
+    "avif": 7058
+  },
+  "3e74c9ce5d1d37f212f6d8cfaa47b8eb": {
+    "webp": 11988,
+    "avif": 4962
+  },
+  "3abc6aac78f93be2fda5fa53e4cd0e23": {
+    "webp": 12158,
+    "avif": 6427
+  },
+  "869886338605f92d8f73ef02f0debea6": {
+    "webp": 12932,
+    "avif": 5466
+  },
+  "8bf6aafcec2220ab921615a154e9d965": {
+    "webp": 14480,
+    "avif": 6410
+  },
+  "8b2d52c0235a7a8c3b41ca0196a39494": {
+    "webp": 21190,
+    "avif": 6882
+  },
+  "5f23e0b09bfefd10c511bac0725f928f": {
+    "webp": 16476,
+    "avif": 5563
+  },
+  "5f932f279eae82e308681372d56733b2": {
+    "webp": 14290,
+    "avif": 5636
+  },
+  "e36cb7487fb2358b24822d776a87afc7": {
+    "webp": 18648,
+    "avif": 9286
+  },
+  "800a386538510076b434c022d5af01f1": {
+    "webp": 14336,
+    "avif": 5862
+  },
+  "a5c745b6955199518e309706cc7b00f5": {
+    "webp": 5186,
+    "avif": 4206
+  },
+  "55c309fb8318fc86820fef04014fab65": {
+    "webp": 5802,
+    "avif": 4602
+  },
+  "2396208b348a3103d5dbfa09aafcd266": {
+    "webp": 12312,
+    "avif": 5623
+  },
+  "d8dd624ac697e8c658c15c97d9bb3b2c": {
+    "webp": 15684,
+    "avif": 6776
+  },
+  "0f4d2e5f1a14f678106dba1e7d73b5a4": {
+    "webp": 13092,
+    "avif": 4816
+  },
+  "4ba570deb133f422300775dea032981d": {
+    "webp": 11198,
+    "avif": 5099
+  },
+  "43e1c86f6eee413be536f66359277edc": {
+    "webp": 16830,
+    "avif": 6872
+  },
+  "bf695af6872fca1f47269457db559a6d": {
+    "webp": 15902,
+    "avif": 5843
+  },
+  "78535fcaa1f71b43682a718f9fffa20e": {
+    "webp": 11928,
+    "avif": 4335
+  },
+  "243e84e2d6bc9c4ab561b6b263066d85": {
+    "webp": 13858,
+    "avif": 5055
+  },
+  "15c5fc1e43133a8a69db0fe3a7bcb308": {
+    "webp": 10118,
+    "avif": 4134
+  },
+  "912670e6c6a45b08a05782554cabf7b2": {
+    "webp": 8952,
+    "avif": 4655
+  },
+  "6a2f15cd2d68038829f0be3b7b8c9611": {
+    "webp": 8388,
+    "avif": 4287
+  },
+  "bd2fbe22dc3c4a340ae523661a29a1d1": {
+    "webp": 20974,
+    "avif": 11043
+  },
+  "28424d960df38ee524ea4ccf3e4cd2ed": {
+    "webp": 21200,
+    "avif": 9675
+  },
+  "3564cb29ef636b0ed71b2ae1fb4bf9cc": {
+    "webp": 19438,
+    "avif": 8222
+  },
+  "32926fe7eea62495e0f4b67b2a4416b6": {
+    "webp": 18270,
+    "avif": 4105
+  },
+  "ba3bc86eceafe1396f4d7da4340be98e": {
+    "webp": 18090,
+    "avif": 4815
+  },
+  "e65c80713348e4807681c183d9a4aee7": {
+    "webp": 19882,
+    "avif": 6506
+  },
+  "2d2bb5495a0a233d618347fb4a9119e7": {
+    "webp": 18818,
+    "avif": 6746
+  },
+  "1da35510712e2cb6af89d12dd18f7afd": {
+    "webp": 18520,
+    "avif": 7027
+  },
+  "dd98b5701b1a66949bb5249cdde30533": {
+    "webp": 15214,
+    "avif": 6818
+  },
+  "c025375ca8e31d4f2cf3380b30f2892c": {
+    "webp": 9560,
+    "avif": 4007
+  },
+  "728de2a1c85665f83849680a8a3b8af6": {
+    "webp": 25078,
+    "avif": 9827
+  },
+  "3503e26341d15b7d7c8bce830d925e82": {
+    "webp": 11786,
+    "avif": 4177
+  },
+  "7481eca065ec4f14e01cd3b1d2bb301c": {
+    "webp": 10882,
+    "avif": 4870
+  },
+  "4e4f354154094406198976bba9300456": {
+    "webp": 15500,
+    "avif": 7855
+  },
+  "3cd4e871f8c95df5792847badf52d337": {
+    "webp": 13314,
+    "avif": 6004
+  },
+  "679bbdba820750e182bef3874fcb5e04": {
+    "webp": 6614,
+    "avif": 5477
+  },
+  "fcbd2269fa418efff361081a9ab1561b": {
+    "webp": 9780,
+    "avif": 3664
+  },
+  "61637eea706fecbc4d49bcc09f043260": {
+    "webp": 17696,
+    "avif": 7814
+  },
+  "0ff81e8385a7e41d694230317109c629": {
+    "webp": 17814,
+    "avif": 8402
+  },
+  "e3ebe073c76e081be8aa35acd123e35e": {
+    "webp": 14492,
+    "avif": 6566
+  },
+  "75bae404ad5835399d4d194d28ecad09": {
+    "webp": 14228,
+    "avif": 4701
+  },
+  "da8f99afd04943aff445a5e5696f69c3": {
+    "webp": 9268,
+    "avif": 3285
+  },
+  "6e6f9d4f8344b53e7b2512c7a54160c0": {
+    "webp": 12708,
+    "avif": 5450
+  },
+  "9ba9732de4a45940390c8deac6f2db65": {
+    "webp": 15284,
+    "avif": 9232
+  },
+  "69915dddac9d41c251b6856a5ad114fb": {
+    "webp": 11220,
+    "avif": 4092
+  },
+  "ad0d098635b5305fe49eddb01df37441": {
+    "webp": 16020,
+    "avif": 7094
+  },
+  "ec877c953dc553c61e7bbee70231db3e": {
+    "webp": 20386,
+    "avif": 8754
+  },
+  "2e8a693d9cbecb1bebea29036dd3245c": {
+    "webp": 22744,
+    "avif": 9363
+  },
+  "002d2e08ecd9347116fd562a2511face": {
+    "webp": 15674,
+    "avif": 5259
+  },
+  "2e115bef3a86c713d5eb3358de395726": {
+    "webp": 8794,
+    "avif": 3034
+  },
+  "61e01eee9b65b9977703ec9253563017": {
+    "webp": 12718,
+    "avif": 7337
+  },
+  "b4ed020435f1a6e9945871d4307f4a21": {
+    "webp": 12990,
+    "avif": 9445
+  },
+  "30d7a53229085270bc6c21774daf4e6f": {
+    "webp": 15438,
+    "avif": 7148
+  },
+  "69aef09075952fb244b4cd0d1af63e23": {
+    "webp": 14256,
+    "avif": 6010
+  },
+  "411d0a970001e14d3de5f835b7f9bf0c": {
+    "webp": 17272,
+    "avif": 7625
+  },
+  "0f9b900b915aa753bb3575c1e5ea08f0": {
+    "webp": 15792,
+    "avif": 5570
+  },
+  "f733f71676dad80d2fe71c669d1f2e28": {
+    "webp": 14138,
+    "avif": 4908
+  },
+  "dd887b6e1a2996853504f99bc9860e97": {
+    "webp": 23832,
+    "avif": 13282
+  },
+  "21a276fc4797b0d6b6cddeb4ba71e906": {
+    "webp": 14576,
+    "avif": 5021
+  },
+  "48b5a6d1b067ed841285cf1058dba3b8": {
+    "webp": 18726,
+    "avif": 9629
+  },
+  "84ebaa3dc4dcadf9a7d3b767e300967f": {
+    "webp": 12290,
+    "avif": 4612
+  },
+  "acc87db4bbf42dd601e751396ed99d6b": {
+    "webp": 8616,
+    "avif": 4972
+  },
+  "342bee512fec6194c5862085f672cbd4": {
+    "webp": 11946,
+    "avif": 6723
+  },
+  "ed3c30633e60c3d7e6bf3e85b1e42aca": {
+    "webp": 15234,
+    "avif": 6430
+  },
+  "9f824b0ab0e473f360b03016c585a665": {
+    "webp": 19634,
+    "avif": 6701
+  },
+  "d74ee462cccf98171e3113fc572e71a3": {
+    "webp": 17080,
+    "avif": 5908
+  },
+  "f857bc90cb15625d922815a0d2fbbd6b": {
+    "webp": 18752,
+    "avif": 6990
+  },
+  "cfcdb17c1c41090c8a94deef91a013b8": {
+    "webp": 21376,
+    "avif": 6428
+  },
+  "75d09de81e0012effb842a4686508dc5": {
+    "webp": 28156,
+    "avif": 6870
+  },
+  "03a76a53c7239317921c81b6afa375a5": {
+    "webp": 5006,
+    "avif": 2302
+  },
+  "0e8575c7f8bd05ed30e839c4a36c5595": {
+    "webp": 11038,
+    "avif": 4267
+  },
+  "feea2e20aacf0b25c11b441987719a09": {
+    "webp": 17268,
+    "avif": 5637
+  },
+  "f74fa7da54a463e88110d788f262d196": {
+    "webp": 20532,
+    "avif": 7188
+  },
+  "6e012dc0d0babc58fe3f6a7ddb00fb00": {
+    "webp": 27872,
+    "avif": 15062
+  },
+  "98323787fae8fb5fbc9bcf316da9dda3": {
+    "webp": 26064,
+    "avif": 11925
+  },
+  "3a79eff73b25be0c3598c6e08855e054": {
+    "webp": 11346,
+    "avif": 5331
+  },
+  "7c8b5ae906e02b754a930df024e8bac3": {
+    "webp": 14618,
+    "avif": 5818
+  },
+  "5efbd4c18d88464e65af215b02690fa5": {
+    "webp": 14940,
+    "avif": 7028
+  },
+  "3638d27539a8c4021aab7fe27ab94308": {
+    "webp": 16394,
+    "avif": 6040
+  },
+  "0d9c9e711446787690389c102e9c3793": {
+    "webp": 17180,
+    "avif": 5582
+  },
+  "b8073311a57f689b1c5055e1b631b774": {
+    "webp": 10716,
+    "avif": 4997
+  },
+  "cc5349db54d1eb188adde29e82a015d5": {
+    "webp": 22204,
+    "avif": 9506
+  },
+  "69d811efe242fe017ee0b7b9dade1f75": {
+    "webp": 9972,
+    "avif": 2917
+  },
+  "2384c9644f30a938c95070634071c997": {
+    "webp": 13586,
+    "avif": 4379
+  },
+  "a3c21215ed86bc496acab5f389419f81": {
+    "webp": 12232,
+    "avif": 4751
+  },
+  "7e17612170c4d75362cb99bdcf588fc9": {
+    "webp": 16416,
+    "avif": 9299
+  },
+  "41096d6ee672a1ae694e97bb3739efe8": {
+    "webp": 11336,
+    "avif": 4195
+  },
+  "11c53969c99cc15fd18d426f8f1cc44e": {
+    "webp": 15020,
+    "avif": 5211
+  },
+  "49bf6b86da316086f06b6bdcab644322": {
+    "webp": 14326,
+    "avif": 6476
+  },
+  "d37926934f10f9084f01f44678357fa0": {
+    "webp": 17184,
+    "avif": 12067
+  },
+  "33cfdba933c86c3e74a9a81f2cab3119": {
+    "webp": 20084,
+    "avif": 7957
+  },
+  "d2ddb87af4ceb03f431ba71853ef8156": {
+    "webp": 30688,
+    "avif": 12156
+  },
+  "1c028cd9d653a86f2bbf0aabb80e190f": {
+    "webp": 8610,
+    "avif": 5128
+  },
+  "862b22529807c2553dc30000f4b25622": {
+    "webp": 29346,
+    "avif": 17182
+  },
+  "a37c45978c5c6dd56afff08b48f274c1": {
+    "webp": 20290,
+    "avif": 8162
+  },
+  "93f13fcdb0bfff0d89ab23a3256ff988": {
+    "webp": 16882,
+    "avif": 6447
+  },
+  "56fe9be4f69b39a18370ae22fbf7004d": {
+    "webp": 18518,
+    "avif": 7180
+  },
+  "55751ed067ad471b61d8fc0d4ef19a7e": {
+    "webp": 24496,
+    "avif": 15719
+  },
+  "cb59f387db10bb16a542fb08437f0421": {
+    "webp": 19486,
+    "avif": 8140
+  },
+  "1b96d48641b5ac518f0a29c108f1d1de": {
+    "webp": 13340,
+    "avif": 5444
+  },
+  "be355a4f981e38d8d76c6f72ba1a0517": {
+    "webp": 16870,
+    "avif": 6017
+  },
+  "e30b35ce167e4772ef9acbecee126765": {
+    "webp": 19522,
+    "avif": 6512
+  },
+  "151c3a5ee3212c385b1e1cd8308812ff": {
+    "webp": 24636,
+    "avif": 8996
+  },
+  "9c8754b8bec0d74f04bfe78da3038c66": {
+    "webp": 31656,
+    "avif": 8312
+  },
+  "fecbd2152c2dc6d355cbb56c8a4d5f30": {
+    "webp": 25228,
+    "avif": 7255
+  },
+  "bd6283b7ab1278a3060d7e00eaf6753f": {
+    "webp": 21674,
+    "avif": 5639
+  },
+  "37e50d57ed806b2c6f8545c7bd9f70fc": {
+    "webp": 14894,
+    "avif": 6189
+  },
+  "a5e5640cd5724d13b96ac27ec001e5d3": {
+    "webp": 22094,
+    "avif": 10865
+  },
+  "e367c4054a020dc5f3dbd82bb03acb59": {
+    "webp": 25146,
+    "avif": 10890
+  },
+  "ed816b17319e204c3aa4fab3fe04648d": {
+    "webp": 18324,
+    "avif": 3650
+  },
+  "95f92fba16b7cb5ec1dcb10263e08ef0": {
+    "webp": 25762,
+    "avif": 11356
+  },
+  "2190b0def1ad96eee578ea61f05cd5e4": {
+    "webp": 18830,
+    "avif": 3567
+  },
+  "c3aeb96cabc426864ba8401fd6a982ae": {
+    "webp": 25820,
+    "avif": 11535
+  },
+  "ac78c36773547338ea43fe0e469daa4f": {
+    "webp": 31732,
+    "avif": 11636
+  },
+  "6e4b9bca859def63888c1aea37be3415": {
+    "webp": 31158,
+    "avif": 7476
+  },
+  "6fe262c9486eace2561ce54b304d1439": {
+    "webp": 18112,
+    "avif": 7141
+  },
+  "fc7cb95f3d61ce88e0b97530d85fb0b1": {
+    "webp": 14766,
+    "avif": 10024
+  },
+  "bfbb64d5480aa9de20fd42a15583b2ba": {
+    "webp": 11554,
+    "avif": 6272
+  },
+  "71aba3bb5a2860ce10d11dd05c3a4464": {
+    "webp": 7520,
+    "avif": 3642
+  },
+  "2ed9013921e64bc2e87d195ea48cf561": {
+    "webp": 5594,
+    "avif": 3422
+  },
+  "2fbcae5a16ab56ae54a90766b2f8d967": {
+    "webp": 13422,
+    "avif": 3836
+  },
+  "13d616e462250b00e84674444ef825f8": {
+    "webp": 20948,
+    "avif": 10878
+  },
+  "708c7f6acd49b43204030b6a97ad40c2": {
+    "webp": 9834,
+    "avif": 5237
+  },
+  "32d335c9d57f6e6b18fbee418ef7f4cb": {
+    "webp": 15934,
+    "avif": 6504
+  },
+  "6bf119f876ae80bca919d124a21f6555": {
+    "webp": 16064,
+    "avif": 6135
+  },
+  "88489a6562d455de68ad9ad1365d8b44": {
+    "webp": 16470,
+    "avif": 8889
+  },
+  "faa6d367e407052b137932cb995c95c8": {
+    "webp": 13496,
+    "avif": 6573
+  },
+  "ad08ed430e606251e779f4b49fb60a0b": {
+    "webp": 16836,
+    "avif": 8987
+  },
+  "56ae10a7d3df9962082b240eecf15ec3": {
+    "webp": 17054,
+    "avif": 5252
+  },
+  "f589e8a939e3cce141822ae69d873bf4": {
+    "webp": 23814,
+    "avif": 12355
+  },
+  "833804fed34cb0c860fcaaa1b5ab4813": {
+    "webp": 38132,
+    "avif": 21117
+  },
+  "b2bf031be105b0db5616440d88cc7354": {
+    "webp": 38104,
+    "avif": 23645
+  },
+  "2cb8b5a4795e7098f9a4f0f0ef606456": {
+    "webp": 24978,
+    "avif": 14757
+  },
+  "cfbac758d14e7eb65b03f106323d8cdf": {
+    "webp": 13148,
+    "avif": 4598
+  },
+  "5ec0a55dcf82576e7894f712b22c8f92": {
+    "webp": 11932,
+    "avif": 5608
+  },
+  "166a61942545b70be617719b163a8622": {
+    "webp": 10256,
+    "avif": 4324
+  },
+  "698ef5fcce808f52149cb94f5199a2ba": {
+    "webp": 24052,
+    "avif": 9961
+  },
+  "261a18e8422aa7d67e361f2a097023c2": {
+    "webp": 9228,
+    "avif": 5129
+  },
+  "d21c00408b9eb9d5cd3f793500b3badc": {
+    "webp": 8848,
+    "avif": 4649
+  },
+  "ab33b66a789008d1460fb245e5f4dbc5": {
+    "webp": 19722,
+    "avif": 7439
+  },
+  "5528c8d9e8558077e5c8a6a1781a5c66": {
+    "webp": 20166,
+    "avif": 8980
+  },
+  "3e5a55a7278649be6ae5fb69b6fa4977": {
+    "webp": 19252,
+    "avif": 6515
+  },
+  "84b4b70df44cfcfc1fd9538422fb8c6b": {
+    "webp": 11682,
+    "avif": 4207
+  },
+  "4f01a194ce70dc20490b22d8f7f67a19": {
+    "webp": 16828,
+    "avif": 8030
+  },
+  "81224dbf094f43b3772ec336636c1626": {
+    "webp": 14526,
+    "avif": 7325
+  },
+  "0012c16953ab3e5e4cbe9461bcb09e9f": {
+    "webp": 13510,
+    "avif": 4937
+  },
+  "a8c2ab99f47b852dce8a904235de7d32": {
+    "webp": 14130,
+    "avif": 4917
+  },
+  "931071478dbc3542dc2286ef976dda6b": {
+    "webp": 13618,
+    "avif": 6505
+  },
+  "c6b7fe4260d9d8d979aa52bb03aeb43e": {
+    "webp": 17376,
+    "avif": 8322
+  },
+  "74eeb818e6d8790346d36295601db93d": {
+    "webp": 18282,
+    "avif": 8078
+  },
+  "34b6d92c53a9be287c4d16b5639cde34": {
+    "webp": 11566,
+    "avif": 7455
+  },
+  "bdf7cf4b1a5334cabb729b8f55020ad8": {
+    "webp": 13056,
+    "avif": 5415
+  },
+  "fb2d2f2b73fdccc08ef814d11c18a072": {
+    "webp": 14292,
+    "avif": 5004
+  },
+  "3d99180821b5fe369444883cd430d98f": {
+    "webp": 22272,
+    "avif": 9020
+  },
+  "36f9e2fddc365be6371f0df810465320": {
+    "webp": 14638,
+    "avif": 4818
+  },
+  "d9c3e6970a6d3d45f436178c49fa682c": {
+    "webp": 6478,
+    "avif": 2535
+  },
+  "b519440c7bf7bde886f5f8e10c056001": {
+    "webp": 21378,
+    "avif": 8033
+  },
+  "160ce56bb372c4c81d9375d255d3004d": {
+    "webp": 8486,
+    "avif": 3690
+  },
+  "3b2fd69c07364002cd3143ad659efa1a": {
+    "webp": 8976,
+    "avif": 3375
+  },
+  "622eb3043a1673d11e43369d79bc9dd4": {
+    "webp": 8900,
+    "avif": 4698
+  },
+  "f3540a8a49b0f1f01d3257de0c200e84": {
+    "webp": 12018,
+    "avif": 7039
+  },
+  "0902793d84e24842c9b8f35e6dd2c120": {
+    "webp": 13802,
+    "avif": 5187
+  },
+  "e2b6c395e9ae6b96b7e7662dca4891c9": {
+    "webp": 6758,
+    "avif": 1547
+  },
+  "c029b3903037d9f0c8c72f343e6b4dc5": {
+    "webp": 14790,
+    "avif": 5375
+  },
+  "faad5c8dd59fa7bbf5b4669238532b6b": {
+    "webp": 32950,
+    "avif": 17262
+  },
+  "d506c380794321a2ba2d2d99fd1ae7a1": {
+    "webp": 25678,
+    "avif": 11741
+  },
+  "8a4c77f001b4e04fb631b8b2f002f266": {
+    "webp": 31008,
+    "avif": 16856
+  },
+  "6827255b4d6f1bef96dcee8538b2acd1": {
+    "webp": 14656,
+    "avif": 6666
+  },
+  "674a84606c1f122109240a4a83ce6b52": {
+    "webp": 23852,
+    "avif": 11283
+  },
+  "e10d0b20d8d2168b8d84f46ff7e4ea02": {
+    "webp": 20614,
+    "avif": 4127
+  },
+  "a7f3440c6440e800740b701c86033cc7": {
+    "webp": 17432,
+    "avif": 5858
+  },
+  "2916dc6df07106177c9ef6c1815f1b20": {
+    "webp": 15596,
+    "avif": 6653
+  },
+  "1b4517d7547055f62709f6ee56a83616": {
+    "webp": 11634,
+    "avif": 4634
+  },
+  "8c9a567a426715d884f1f11bf5c3491b": {
+    "webp": 12652,
+    "avif": 5122
+  },
+  "91dde5e59b6701fa863029c4c01b6f66": {
+    "webp": 22328,
+    "avif": 11709
+  },
+  "8f82622cab8d85c082ab63aee5574808": {
+    "webp": 17104,
+    "avif": 6722
+  },
+  "2c41106c1f855cf3c25f22e3478dc730": {
+    "webp": 18294,
+    "avif": 6916
+  },
+  "d339ad51fd999c6685ed7df4f0a1c7ce": {
+    "webp": 12406,
+    "avif": 5871
+  },
+  "9a2d4f832b5252388b7231f7ceed5f8b": {
+    "webp": 16024,
+    "avif": 5951
+  },
+  "9a08cb43aa680a27dfb3acc5c0a3fb3d": {
+    "webp": 12618,
+    "avif": 4500
+  },
+  "bf147d7662a676615eea070765d7549b": {
+    "webp": 23538,
+    "avif": 9974
+  },
+  "dc6510c0f83908a93b2eef54fcc162dc": {
+    "webp": 16032,
+    "avif": 5246
+  },
+  "553b8a96e26ca19543a0738d714473a2": {
+    "webp": 24354,
+    "avif": 8760
+  },
+  "b6a35d39ff9753ab98cc7dda377a6318": {
+    "webp": 12388,
+    "avif": 4496
+  },
+  "82ac1fdb0f8e58399dccb7168c0cdfc4": {
+    "webp": 23966,
+    "avif": 6761
+  },
+  "cae741b1c85f428043d84399cf19380e": {
+    "webp": 13414,
+    "avif": 4551
+  },
+  "057481699b68e60040496b2654d77f0c": {
+    "webp": 16718,
+    "avif": 5320
+  },
+  "8f44f212b859ca21190b24b7fca0cd95": {
+    "webp": 12214,
+    "avif": 5503
+  },
+  "5414e135047c3cbd952cfdca8e2f3250": {
+    "webp": 15548,
+    "avif": 5116
+  },
+  "fb85f608377c768a07d277563d97a0e9": {
+    "webp": 18504,
+    "avif": 6192
+  },
+  "8ca0144c37902a8adda1ec96a15ba1a7": {
+    "webp": 11940,
+    "avif": 5166
+  },
+  "b8cf59d76bf55cee6ff60e5f387456ee": {
+    "webp": 19640,
+    "avif": 7209
+  },
+  "488b1d63f8cedaa307dcee185e9e2eae": {
+    "webp": 10986,
+    "avif": 4004
+  },
+  "b67c29b037ef179279c37dc1c8052c78": {
+    "webp": 11412,
+    "avif": 4950
+  },
+  "021dd604726b26578c7bf7dc8de249fa": {
+    "webp": 17154,
+    "avif": 6403
+  },
+  "33c87463e94b6ff54cd570acaf65d5f2": {
+    "webp": 21668,
+    "avif": 9244
+  },
+  "8cadda198e611ce3562938e1e03d46ec": {
+    "webp": 21534,
+    "avif": 7457
+  },
+  "3245afc318769b8b53ff9dd9026d5d6b": {
+    "webp": 12256,
+    "avif": 4304
+  },
+  "78c9cf0bdc93e29795f5cf25b25a22e3": {
+    "webp": 20198,
+    "avif": 7611
+  },
+  "ebf0e8c5458696753e45a30a3d429c31": {
+    "webp": 9882,
+    "avif": 3918
+  },
+  "a32a7d25ae7a15a8bcf40379716b2644": {
+    "webp": 27104,
+    "avif": 10068
+  },
+  "fcd1f6bd5e6276314387d86342ca9db6": {
+    "webp": 15390,
+    "avif": 10210
+  },
+  "dfafd17b12e5a2760b73884b3b5f6b18": {
+    "webp": 13282,
+    "avif": 9034
+  },
+  "8543f94315f1e40fcc673895c0d57d92": {
+    "webp": 255026,
+    "avif": 17339
+  },
+  "3ed6660debefa98623fe328a5d08be9a": {
+    "webp": 311166,
+    "avif": 10954
+  },
+  "ffdf6feab860c8478edb0593976f059b": {
+    "webp": 192944,
+    "avif": 15952
+  },
+  "36c90e2636fcbda1d71cdec4e4ae796c": {
+    "webp": 192964,
+    "avif": 15846
+  },
+  "b559a31cb4c4cf76d514a0613aee9b19": {
+    "webp": 239424,
+    "avif": 17316
   }
 }

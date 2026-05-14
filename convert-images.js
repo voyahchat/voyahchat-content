@@ -66,15 +66,117 @@ class ImageConverter {
     }
 
     /**
-     * Load cache from file
+     * Load cache from file. Returns false if file doesn't exist.
      */
     async loadCache() {
         try {
             const cacheData = await fs.readFile(path.join(__dirname, CACHE_FILE), 'utf8');
             this.cache = JSON.parse(cacheData);
+            return true;
         } catch (error) {
-            // Cache file doesn't exist or is invalid, start fresh
             this.cache = {};
+            return false;
+        }
+    }
+
+    /**
+     * Build cache from existing converted files without converting anything.
+     */
+    async buildCacheFromExistingFiles() {
+        console.log('Cache file not found. Building from existing files...');
+        console.log();
+
+        const imageFiles = [];
+
+        for (const dir of SCAN_DIRS) {
+            const dirPath = path.join(__dirname, dir);
+            try {
+                await this.collectImageFiles(dirPath, imageFiles);
+            } catch (error) {
+                if (error.code !== 'ENOENT') {
+                    console.error(`Error scanning ${dir}:`, error.message);
+                }
+            }
+        }
+
+        if (imageFiles.length === 0) {
+            console.log('No source images found.');
+            return;
+        }
+
+        console.log(`Found ${imageFiles.length} source images. Checking converted files...`);
+
+        let cached = 0;
+        let missing = 0;
+
+        for (const file of imageFiles) {
+            const { path: filePath, type } = file;
+            const baseName = path.basename(filePath, path.extname(filePath));
+            const dirName = path.dirname(filePath);
+            const webpPath = path.join(dirName, `${baseName}.webp`);
+            const avifPath = path.join(dirName, `${baseName}.avif`);
+
+            const webpExists = await this.fileExists(webpPath);
+            const avifExists = await this.fileExists(avifPath);
+
+            if (!webpExists && !avifExists) {
+                missing++;
+                continue;
+            }
+
+            const hash = await this.getFileHash(filePath);
+            const entry = {};
+
+            if (webpExists) {
+                const stats = await fs.stat(webpPath);
+                entry.webp = stats.size;
+            }
+
+            if (avifExists) {
+                const stats = await fs.stat(avifPath);
+                entry.avif = stats.size;
+            }
+
+            this.cache[hash] = entry;
+            cached++;
+        }
+
+        await this.saveCache();
+
+        console.log(`Cached: ${cached}, No converted files found: ${missing}`);
+        console.log(`Cache saved to ${CACHE_FILE}`);
+    }
+
+    /**
+     * Collect source image files for cache building.
+     */
+    async collectImageFiles(dirPath, imageFiles) {
+        let entries;
+        try {
+            entries = await fs.readdir(dirPath, { withFileTypes: true });
+        } catch (error) {
+            return;
+        }
+
+        for (const entry of entries) {
+            const fullPath = path.join(dirPath, entry.name);
+
+            if (entry.isDirectory()) {
+                if (entry.name !== '.git') {
+                    await this.collectImageFiles(fullPath, imageFiles);
+                }
+                continue;
+            }
+
+            if (!entry.isFile()) {
+                continue;
+            }
+
+            const ext = path.extname(entry.name).toLowerCase();
+            if (ext === '.png' || ext === '.jpg' || ext === '.jpeg') {
+                const type = ext === '.png' ? 'png' : 'jpeg';
+                imageFiles.push({ path: fullPath, type });
+            }
         }
     }
 
@@ -99,9 +201,8 @@ class ImageConverter {
      * Get file hash for cache key
      */
     async getFileHash(filePath) {
-        const stats = await fs.stat(filePath);
-        const data = `${filePath}:${stats.size}:${stats.mtime.getTime()}`;
-        return crypto.createHash('md5').update(data).digest('hex');
+        const content = await fs.readFile(filePath);
+        return crypto.createHash('md5').update(content).digest('hex');
     }
 
     /**
@@ -121,10 +222,14 @@ class ImageConverter {
      */
     async markProcessed(filePath, result) {
         const hash = await this.getFileHash(filePath);
-        this.cache[hash] = {
-            timestamp: Date.now(),
-            ...result,
-        };
+        const entry = {};
+        if (result.avif && result.avif.success) {
+            entry.avif = result.avif.size;
+        }
+        if (result.webp && result.webp.success) {
+            entry.webp = result.webp.size;
+        }
+        this.cache[hash] = entry;
     }
 
     /**
@@ -136,7 +241,12 @@ class ImageConverter {
         console.log();
 
         // Load cache
-        await this.loadCache();
+        const cacheExists = await this.loadCache();
+
+        if (!cacheExists) {
+            await this.buildCacheFromExistingFiles();
+            return;
+        }
 
         // Scan directories
         console.log('Scanning directories...');
@@ -235,11 +345,14 @@ class ImageConverter {
         const webpSizeForComparison = (webpResult && webpResult.success) ? webpResult.size : null;
         const avifResult = await this.convertToFormat(filePath, dirName, baseName, 'avif', type, index + 1, total, webpSizeForComparison);
 
-        // Mark as processed
-        await this.markProcessed(filePath, {
-            avif: avifResult,
-            webp: webpResult,
-        });
+        // Only write to cache when actual conversion happened
+        const anySkipped = (avifResult.skipped && webpResult.skipped);
+        if (!anySkipped) {
+            await this.markProcessed(filePath, {
+                avif: avifResult,
+                webp: webpResult,
+            });
+        }
     }
 
     /**
