@@ -1,4 +1,4 @@
-Заказ услуги делается через [закрытый чат](https://t.me/+JftLkZ-jTFA4OGYy) или [бота](https://t.me/voyah_help_bot).
+Заказ услуги делается через [закрытый чат в Телеграме](https://t.me/+JftLkZ-jTFA4OGYy) или [бота](https://t.me/voyah_help_bot) или [закрытый чат в MAX](https://max.ru/join/LUuB1pLze8LcJQqqbfFZq9aXinrs-NOv6-KRz9Cc2mA).
 
 [Подать объявление](https://t.me/voyah_ad_bot) о продаже нового авто или з/ч. По другим вопросам писать [@ilya_is](https://t.me/ilya_is).
 
