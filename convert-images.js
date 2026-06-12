@@ -32,7 +32,7 @@ const BATCH_SIZE = 10;
 const PAD_START = 4;
 
 // Directories to scan
-const SCAN_DIRS = ['common', 'free', 'dreamer', 'passion'];
+const SCAN_DIRS = ['common', 'free', 'dreamer', 'passion', 'partners'];
 
 // Cache file
 const CACHE_FILE = 'convert-images.json';
