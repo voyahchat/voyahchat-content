@@ -8,7 +8,7 @@
 
 4. Зарегистрироваться на [pasiqo.voyah.live](https://pasiqo.voyah.live), подтвердить свой email в почте
 
-5. Оплатить подписку на год через USDT/USDC на сайте [pasiqo.voyah.live](https://pasiqo.voyah.live) или в рублях через [чат заказа услуг](https://t.me/+JftLkZ-jTFA4OGYy)
+5. Оплатить подписку на год через USDT/USDC на сайте [pasiqo.voyah.live](https://pasiqo.voyah.live) или в рублях через [@vithar](https://t.me/vithar)
 
 6. После активации подписки перейти на [pasiqo.voyah.live/redeem](https://pasiqo.voyah.live/redeem) и ввести 6 цифр из машины для связи аккаунта и машины
 
