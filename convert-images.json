@@ -2298,5 +2298,21 @@
   "e96e164ba52a4484e4864e86d7b1252c": {
     "avif": 55220,
     "webp": 180992
+  },
+  "40f01cdebf6bbbe23b7b0b26aea01a12": {
+    "avif": 1353,
+    "webp": 2976
+  },
+  "cf3033cb281c9a90c3d4260fa7c6c3d3": {
+    "avif": 2625,
+    "webp": 7392
+  },
+  "4125aecbd18dae362252dc329551b3b1": {
+    "avif": 49599,
+    "webp": 122354
+  },
+  "e1c9ded37e6ce453df0ba1bfb7f024e4": {
+    "avif": 5899,
+    "webp": 16206
   }
 }
