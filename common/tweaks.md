@@ -16,7 +16,7 @@
 
 # Установка
 
-* [Установка](tweaks_install.md)
+* [Установка](https://voyahtweaks.ru/instruction)
 * [Установка на NXP (старый чип на дорест33 до 2023)](tweaks_install-nxp.md)
 * [Платная установка/настройка VoyahTweaks и приложений](../help/software.md)
 

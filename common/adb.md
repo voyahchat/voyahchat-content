@@ -4,7 +4,7 @@ ADB это Android Debug Bridge, возможность подключить у�
 
 Если подключить компьютер к машине [кабелем](https://voyahchat.ru/common/cable), включить в машине [отладку по USB](https://voyahchat.ru/common/usb-debugging), то можно через ADB устанавливать/удалять приложения, менять настройки приложений.
 
-Консольную версию adb для Windows и Mac используют все скрипты установки в разделе [Приложения](software.md). Так же устанавливается [VoyahTweaks](tweaks_install.md) и [Pasiqo](pasiqo_install.md).
+Консольную версию adb для Windows и Mac используют все скрипты установки в разделе [Приложения](software.md). Так же устанавливается [VoyahTweaks](https://voyahtweaks.ru/instruction) и [Pasiqo](pasiqo_install.md).
 
 Используя графический интерфейс к ADB точно так же можно устанавливать/удалять приложения, включать/выключать системные сервисы и выполнять другие adb-команды.
 
