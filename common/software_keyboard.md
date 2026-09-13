@@ -6,6 +6,8 @@ CunBA поддерживает только [Яндекс Клавиатуру](
 
 Инструкция написана для [Simple Keyboard](#simple) и [Яндекс Клавиатуры](#яндекс). Вместо них можно установить Google Gboard или Microsoft Swiftkey из [APKPure](software_apkpure.md) и сделать аналогичные настройки.
 
+Для Passion на прошивках 2.1.4.60 / 2.1.4.64 вместо стороннего приложения заменяется штатная клавиатура, см. [Passion](#passion).
+
 # Simple
 
 1. [Включить USB Debugging](usb-debugging.md)
@@ -106,5 +108,68 @@ unzip -o voyahchat-keyboard-yandex-mac.zip
 - Выполнить скрипт установки
 ```
 sh ./voyahchat-keyboard-yandex.sh
+```
+
+# Passion
+
+Русская клавиатура для Passion на прошивках 2.1.4.60 / 2.1.4.64. Штатная клавиатура заменяется целиком, никакие другие приложения не нужны.
+
+Что работает:
+- русская ЙЦУКЕН-раскладка
+- английская раскладка
+- переключение RU/EN и EN/RU
+- русские подписи «Пробел», «Поиск», «Ввод», «Готово»
+
+Для китайской прошивки используется отдельная версия, этот пакет не подойдёт.
+
+1. [Включить USB Debugging](usb-debugging.md)
+
+2. Подключить [кабель](cable.md) в порт USB Type-A внизу между водителем и пассажиром. Если в машине два USB Type-A — в левый, ближе к водителю
+
+3. Выполнить установку на [Windows](#windows) или [Mac](#mac)
+
+4. Дождаться сообщения об успешной установке, машина перезагрузится автоматически
+
+5. После загрузки подождать около минуты и проверить клавиатуру
+
+## Windows
+
+1. Скачать [voyahchat-keyboard-passion.zip](https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-passion.zip)
+
+2. Разархивировать `voyahchat-keyboard-passion.zip` в любую директорию, нажав на файл правой кнопкой в Проводнике и выбрав `Извлечь всё`
+
+3. Войти в директорию `voyahchat-keyboard-passion`
+
+4. Запустить пакетный файл Windows `voyahchat-keyboard-passion.bat`
+
+## Mac
+
+Запустить `Терминал` (стандартное приложение на Маке), выполнить последовательность команд. Копировать и вставлять в терминал по одной строке, после каждой команды нажимать `Enter`:
+- Перейти в директорию `Downloads`
+```
+cd ~/Downloads
+```
+- Скачать voyahchat-keyboard-passion-mac.zip
+```
+curl -O https://github.com/voyahchat/voyahchat-install/raw/refs/heads/main/voyahchat-keyboard-passion-mac.zip
+ ```
+- Разархивировать
+```
+unzip -o voyahchat-keyboard-passion-mac.zip
+```
+- Выполнить скрипт установки
+```
+sh ./voyahchat-keyboard-passion.sh
+```
+
+## Удаление
+
+Для удаления русской клавиатуры и возврата штатной используется тот же архив, что для установки. Машина перезагрузится автоматически, после загрузки подождать около минуты и проверить клавиатуру.
+
+На Windows запустить пакетный файл `voyahchat-keyboard-passion-uninstall.bat` из директории архива.
+
+На Mac выполнить из директории архива:
+```
+sh ./voyahchat-keyboard-passion-uninstall.sh
 ```
 
