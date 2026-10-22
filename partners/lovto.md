@@ -1,9 +1,8 @@
-# Оклейка Voyah Free в LOVTO в Москве и Санкт-Петербурге
+# Оклейка Voyah Free в LOVTO в Москве
 
 Защита кузова Voyah Free от сколов, царапин и дорожного воздействия или полностью измените внешний вид автомобиля с помощью премиальных плёнок.
 
 - [Москва, Новоясеневский пр-т, 6, корп. 1](https://yandex.ru/maps/-/CPt4VFKt)
-- [Санкт-Петербург, пр. Ударников, 34](https://yandex.ru/maps/-/CPt4RCyM)
 - [+7 (499) 346-80-22](tel:+74993468022)
 - [okleika.lovto.ru](https://okleika.lovto.ru/?utm_source=voyahchat&utm_medium=site)
 - [@lovto_ru](https://t.me/lovto_ru) — задать вопрос и заказать оклейку
