@@ -1,4 +1,4 @@
-Заказ услуги делается через [закрытый чат в Телеграме](https://t.me/+JftLkZ-jTFA4OGYy) или [бота](https://t.me/voyah_help_bot) или [закрытый чат в MAX](https://max.ru/join/LUuB1pLze8LcJQqqbfFZq9aXinrs-NOv6-KRz9Cc2mA).
+Заказ услуги делается через [закрытый чат в Телеграме](https://t.me/+JftLkZ-jTFA4OGYy) или [закрытый чат в MAX](https://max.ru/join/LUuB1pLze8LcJQqqbfFZq9aXinrs-NOv6-KRz9Cc2mA).
 
 - [Установка приложений](software.md) удалённо, в Москве, Краснодаре и Владимире
 - Обновление прошивки китайских машин [удалённо](firmware.md#удалённо), [с выездом](firmware.md#выезд) в ваш город или в [Краснодаре](firmware.md#краснодар)

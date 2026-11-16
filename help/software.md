@@ -4,7 +4,7 @@
 
 Москва, Владимир, Краснодар — очно. Все остальные города — [удалённая установка](#удалённо).
 
-Услуга оказывается после 100% предоплаты. Заказ услуги делается через [закрытый чат в Телеграме](https://t.me/+JftLkZ-jTFA4OGYy) или [бота](https://t.me/voyah_help_bot) или [закрытый чат в MAX](https://max.ru/join/LUuB1pLze8LcJQqqbfFZq9aXinrs-NOv6-KRz9Cc2mA).
+Услуга оказывается после 100% предоплаты. Заказ услуги делается через [закрытый чат в Телеграме](https://t.me/+JftLkZ-jTFA4OGYy) или [закрытый чат в MAX](https://max.ru/join/LUuB1pLze8LcJQqqbfFZq9aXinrs-NOv6-KRz9Cc2mA).
 
 # Стоимость
 
