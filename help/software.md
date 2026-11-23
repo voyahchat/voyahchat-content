@@ -19,7 +19,7 @@
 
 На Free/Dreamer устанавливается CunBA и/или VoyahTweaks, [в чём отличие](../common/enhance.md). Подписка на VoyahTweaks/CunBA оплачивается отдельно, 8000 российских рублей в год.
 
-На Passion устанавливаются только приложения или приложения и [Pasiqo](../common/pasiqo.md), подписка на Pasiqo оплачивается отдельно, 8000 российских рублей в год.
+На Passion устанавливаются только приложения или приложения и [passion-ng.ru](https://passion-ng.ru/install?utm_source=telegram&utm_medium=messenger&utm_campaign=voyah_chat) или приложения и [Pasiqo](../common/pasiqo.md), подписка на Pasiqo оплачивается отдельно, 8000 российских рублей в год.
 
 На Courage / Dreamer 2025 (Android 13) устанавливаются только приложения.
 
